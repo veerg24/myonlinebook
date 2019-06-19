@@ -55,9 +55,6 @@ complete guide, see [the Jupyter Book guide](guide/01_overview).
 
 ## Acknowledgements
 
-Jupyter Books was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
+Jupyter Books was originally created by [Sam Lau](http://www.samlau.me/) and [Chris Holdgraf](https://predictablynoisy.com)
 with support of the **UC Berkeley Data Science Education Program and the Berkeley
 Institute for Data Science**.
-
-[sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com
