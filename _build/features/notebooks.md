@@ -321,4 +321,13 @@ m
 </div>
 </div>
 </div>
+```
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+from matplotlib import rcParams, cycler
+import matplotlib.pyplot as plt
+import numpy as np
+plt.ion()
 
