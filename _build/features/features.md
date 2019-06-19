@@ -18,8 +18,7 @@ The content for the book is contained in a folder in the site's repository calle
 combination of markdown and Jupyter notebooks. This content is rendered into the textbook that you see here!
 
 To begin, click on one of the chapter sections in the sidebar to the left. The first section demonstrates some
-simple functionality of this repository, while the following chapters contain a subset of content from the
-[Foundations in Data Science](https://inferentialthinking.com).
+simple functionality of this repository, while the following chapters contain a subset of content from the [Foundations in Data Science](https://inferentialthinking.com).
 
 ## Quickstart
 
