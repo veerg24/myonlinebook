@@ -49,6 +49,16 @@ But make sure you \\$Escape \\$your \\$dollar signs \\$you want to keep!
 Textbooks with Jupyter will also embed your code blocks and output in your site.
 For example, here's some sample Matplotlib code:
 
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+print("hello world!")
+
+
+```
+</div>
+
+</div>
 
 
 <div markdown="1" class="cell code_cell">
@@ -321,15 +331,4 @@ m
 
 </div>
 </div>
-</div>
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-print("hello world!")
-
-
-```
-</div>
-
 </div>
