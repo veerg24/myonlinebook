@@ -32,7 +32,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 var bootstrapThebe = function() {
     thebelab.bootstrap();
 }
-
+</script>
+<script>
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
 </script>
 
