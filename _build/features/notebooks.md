@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Content with notebooks
 
-<!-- Configure and load Thebe !-->
+<!-- Configure and load Thebe
 <script type="text/x-thebe-config">
   {
     requestKernel: true,
@@ -37,7 +37,7 @@ var bootstrapThebe = function() {
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
 </script>
 
-<pre data-executable="true" data-language="python">print("Hello!")</pre>
+<pre data-executable="true" data-language="python">print("Hello!")</pre> -->
 
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
