@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Content with notebooks
 
-<!-- Configure and load Thebe
+<!-- Configure and load Thebe -->
 <script type="text/x-thebe-config">
   {
     requestKernel: true,
@@ -25,7 +25,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
   }
 </script>
 
-<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script> -->
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 <!--
 <button id="activateButton"  style="width: 150px; height: 75px; font-size: 1.5em;">Activate</button>
 <script>
