@@ -15,6 +15,28 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Content with notebooks
 
+<!-- Configure and load Thebe !-->
+<script type="text/x-thebe-config">
+  {
+    requestKernel: true,
+    binderOptions: {
+      repo: "binder-examples/requirements",
+    },
+  }
+</script>
+
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<button id="activateButton"  style="width: 150px; height: 75px; font-size: 1.5em;">Activate</button>
+<script>
+var bootstrapThebe = function() {
+    thebelab.bootstrap();
+}
+
+document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
+</script>
+
+
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
 code blocks and their outputs, and export them to Jekyll markdown.
