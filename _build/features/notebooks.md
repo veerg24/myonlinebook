@@ -36,6 +36,7 @@ var bootstrapThebe = function() {
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
 </script>
 
+<pre data-executable="true" data-language="python">print("Hello!")</pre>
 
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
