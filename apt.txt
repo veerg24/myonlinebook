@@ -6,3 +6,4 @@ tdsodbc
 nano
 vim
 telnet
+pyodbc
