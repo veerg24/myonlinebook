@@ -5,3 +5,4 @@ freetds-bin
 tdsodbc
 nano
 vim
+telnet
