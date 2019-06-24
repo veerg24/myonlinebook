@@ -7,63 +7,13 @@ prev_page:
   url: /features/markdown
   title: 'Markdown'
 next_page:
-  url: /features/features
-  title: 'Features'
+  url: /features/bokeh
+  title: 'Bokeh'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
 
 # Content with notebooks
-
-<!-- Configure and load Thebe -->
-<script type="text/x-thebe-config">
-  {
-    requestKernel: true,
-    binderOptions: {
-      repo: "binder-examples/requirements",
-    },
-  }
-</script>
-
-<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
-<!--
-<button id="activateButton"  style="width: 150px; height: 75px; font-size: 1.5em;">Activate</button>
-<script>
-var bootstrapThebe = function() {
-    thebelab.bootstrap();
-}
-</script>
-<script>
-document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
-</script>
-
-<pre data-executable="true" data-language="python">
-import numpy as np
-from bokeh.plotting import figure, show
-from bokeh.io import output_notebook
-
-N = 4000
-x = np.random.random(size=N) * 100
-y = np.random.random(size=N) * 100
-radii = np.random.random(size=N) * 1.5
-colors = ["#%02d%02d%02d" % (r, g, 150) for r, g in zip(np.floor(50+2*x), np.floor(30+2*y))]
-output_notebook()
-p = figure()
-p.circle(x, y, radius=radii, fill_color=colors, fill_alpha=0.6, line_color=None)
-show(p)
-print("hello")
-</pre>-->
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-print("hello world!")
-
-
-```
-</div>
-
-</div>
 
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
@@ -99,16 +49,6 @@ But make sure you \\$Escape \\$your \\$dollar signs \\$you want to keep!
 Textbooks with Jupyter will also embed your code blocks and output in your site.
 For example, here's some sample Matplotlib code:
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-print("hello world!")
-
-
-```
-</div>
-
-</div>
 
 
 <div markdown="1" class="cell code_cell">
@@ -118,7 +58,6 @@ from matplotlib import rcParams, cycler
 import matplotlib.pyplot as plt
 import numpy as np
 plt.ion()
-
 
 ```
 </div>
@@ -383,160 +322,3 @@ m
 </div>
 </div>
 
-
-<!--
-<script>
-function thebe_place_activate_button(){
-  $('.thebe_status_field')
-    .html('<input type="button"\
-                  onclick="thebe_activate_button_function()"\
-                  value="Activate"\
-                  title="ThebeLab (requires internet):\nClick to activate code cells in this page.\nYou can then edit and run them.\nComputations courtesy of mybinder.org."\
-                   class="thebe-status-field"/>');
-}
-
-function thebe_remove_activate_button(){
-  $('.thebe_status_field').empty();
-}
-
-function thebe_place_status_field(){
-  $('.thebe_status_field')
-    .html('<div class="thebe-status-field"\
-                title="ThebeLab status.\nClick `run` to execute code cells.\nComputations courtesy of mybinder.org.">\
-          </div>');
-}
-sagemath='<a href="http://sagemath.org">Sage</a>'
-mybinder='<a href="http://mybinder.org">mybinder.org</a>'
-about=' (<a href="http://sage-package.readthedocs.io/en/latest/sage_package/thebe.html">About</a>)'
-server=''
-
-messages = {
-  'downloading': 'Downloading Thebe',
-  'building': 'Building '+sagemath,
-  'built': 'Built '+sagemath,
-  'launching': 'Launching server',
-  'server-ready': 'Launched server',
-  'starting': 'Launching '+sagemath,
-  'ready': 'Running  '+sagemath,
-  'failed': 'Failed (network error?)'
-}
-
-function thebe_update_status_field(evt, data) {
-  console.log("Thebe: status changed (" + data.status + "): " + data.message);
-  $(".thebe-status-field")
-    .attr("class", "thebe-status-field thebe-status-" + data.status)
-    .html(messages[data.status]+server+about);
-}
-
-function thebe_bootstrap_local () {
-  console.log("Thebe: using local server");
-  thebelab.on("status", thebe_update_status_field);
-  thebelab.bootstrap({
-    binderOptions: {repo: null},
-    kernelOptions: {
-      name: "sagemath",
-      serverSettings: {
-        "baseUrl": window.location.origin,
-      }
-    }
-  });
-}
-
-function thebe_bootstrap_binder () {
-  console.log("Thebe: using remote server on binder");
-  thebelab.on("status", thebe_update_status_field); // Duplicated with above; would be nicer as thebe option
-  server = " on "+mybinder;
-  thebelab.bootstrap();
-}
-
-// Try downloading thebe remotely; if successfull call next_operation
-function thebe_download_remote(next_operation) {
-  thebe_update_status_field({}, {status: 'downloading', message: ''})
-  // Load the Thebe library
-  $.getScript("https://unpkg.com/thebelab@^0.1.0")
-    .done(function(script, textStatus) {
-      next_operation()
-    })
-    .fail(function(jqxhr, settings, exception ) {
-      $( "div.log" ).text( "Could not fetch ThebeLab library." );
-      thebe_update_status_field({}, {status: 'failed', message: ''})
-    });
-}
-
-// Try downloading thebe locally, or remotely if unavailable; if successfull call next_operation
-function thebe_download_local(next_operation) {
-  console.log("Thebe: trying to get thebe from the nbextensions");
-  $.getScript("/nbextensions/thebelab.js")
-    .done(function(script, textStatus) {
-      next_operation()
-    })
-    .fail(function(jqxhr, settings, exception ) {
-      thebe_download_remote(next_operation);
-    });
-}
-
-// Activate button function hook
-function thebe_activate_button_function(){
-  thebe_remove_activate_button();
-  thebe_place_status_field();
-  // Checks whether served by a Jupyter server, and whether a sagemath kernel is available
-  // Proceed accordingly by downloading thebe locally or remotely
-  // and running a kernel locally or remotely
-  if (window.location.protocol.startsWith('http')) {
-    ajax(window.location.origin+'/api/kernelspecs', {
-      dataType: 'json',
-      success: function(json) {
-        if (json['kernelspecs']['sagemath'])
-          thebe_download_local(thebe_bootstrap_local)
-      },
-      error:    function() {
-        thebe_download_local(thebe_bootstrap_binder);
-      }
-    });
-  } else {
-    thebe_download_remote(thebe_bootstrap_binder);
-  }
-}
-
-/*****************************************************************************
-  Jupyterlab utilities, taken from:
-  https://github.com/jupyter/notebook/blob/master/notebook/static/base/js/utils.js
-   Might not be needed once jupyterlab will be shiped with SageMath.
-*****************************************************************************/
-
-var _get_cookie = function (name) {
-  // from tornado docs: http://www.tornadoweb.org/en/stable/guide/security.html
-  var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
-  return r ? r[1] : undefined;
-}
-
-var _add_auth_header = function (settings) {
-  /**
-   * Adds auth header to jquery ajax settings
-   */
-  settings = settings || {};
-  if (!settings.headers) {
-    settings.headers = {};
-  }
-  if (!settings.headers.Authorization) {
-    var xsrf_token = _get_cookie('_xsrf');
-    if (xsrf_token) {
-      settings.headers['X-XSRFToken'] = xsrf_token;
-    }
-  }
-  return settings;
-};
-
-var ajax = function (url, settings) {
-  // like $.ajax, but ensure XSRF or Authorization header is set
-  if (typeof url === "object") {
-    // called with single argument: $.ajax({url: '...'})
-    settings = url;
-    url = settings.url;
-    delete settings.url;
-  }
-  settings = _add_auth_header(settings);
-  return $.ajax(url, settings);
-};
-</script>
--->
