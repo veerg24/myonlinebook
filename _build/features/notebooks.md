@@ -27,6 +27,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 <script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 
+<pre data-executable="true" data-language="python">print("Hello!")</pre>
+
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
