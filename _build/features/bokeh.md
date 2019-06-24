@@ -29,7 +29,6 @@ output_notebook()
 p = figure()
 p.circle(x, y, radius=radii, fill_color=colors, fill_alpha=0.6, line_color=None)
 show(p)
-print("hello")
 
 ```
 </div>
