@@ -49,7 +49,7 @@ print("Welcome")
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-# Click on the Interactive button at the top to execute and edit this code segment
+# Click on the Interact button at the top to execute and edit this code segment
 import numpy as np
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
