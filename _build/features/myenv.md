@@ -1,14 +1,14 @@
 ---
-interact_link: content/features/bokeh.ipynb
-kernel_name: python3
+interact_link: content/features/myenv.ipynb
+kernel_name: myenv
 has_widgets: false
-title: 'Bokeh'
+title: 'MyEnv'
 prev_page:
-  url: /features/notebooks
-  title: 'Notebooks'
+  url: /features/bokeh
+  title: 'Bokeh'
 next_page:
-  url: /features/myenv
-  title: 'MyEnv'
+  url: /features/features
+  title: 'Features'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -40,7 +40,7 @@ show(p)
 
     <div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1001">Loading BokehJS ...</span>
+        <span id="1946">Loading BokehJS ...</span>
     </div>
 </div>
 
@@ -61,7 +61,7 @@ show(p)
 
 
 
-  <div class="bk-root" id="fece03a7-4efa-4345-97a3-fd420bd22477" data-root-id="1002"></div>
+  <div class="bk-root" id="5bc25609-284a-43bd-8e25-c89f4f25c84e" data-root-id="1947"></div>
 
 </div>
 
