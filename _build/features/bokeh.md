@@ -30,12 +30,10 @@ p.circle(x, y, radius=radii, fill_color=colors, fill_alpha=0.6, line_color=None)
 show(p)
 ```
 
-
-
-    <div class="bk-root">
+<div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
         <span id="1754">Loading BokehJS ...</span>
-    </div>
+</div>
 
 
   <div class="bk-root" id="275ce6f9-3b57-42aa-a155-ab232ffb66e6" data-root-id="1755"></div>
