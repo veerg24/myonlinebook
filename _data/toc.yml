@@ -39,7 +39,5 @@
   url: /features/notebooks
 - title: Bokeh
   url: /features/bokeh
-- title: MyEnv
-  url: /features/myenv
 - title: Features
   url: /features/features
