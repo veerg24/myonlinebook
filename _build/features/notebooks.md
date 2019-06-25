@@ -28,7 +28,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 
 <!--
-<button id="activateButton"  style="width: 150px; height: 75px; font-size: 1.5em;">Activate</button>-->
+<button id="activateButton"  style="width: 150px; height: 75px; font-size: 1.5em;">Activate</button>
 
 
 <script>
@@ -39,7 +39,7 @@ var bootstrapThebe = function() {
 
 <script>
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
-</script>
+</script>-->
 
 <pre data-executable="true" data-language="python">print("Hello!")</pre>
 
