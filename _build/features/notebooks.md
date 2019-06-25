@@ -15,6 +15,14 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Content with notebooks
 
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+print("Welcome")
+```
+</div>
+</div>
+
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
 code blocks and their outputs, and export them to Jekyll markdown.
@@ -126,8 +134,8 @@ y = np.random.randn(100)
 ax.scatter(x, y, s=np.abs(x*100), c=x, cmap=plt.cm.coolwarm)
 ax.text(0, .5, thisvariable, fontsize=20, transform=ax.transAxes)
 ax.set_axis_off()
-
 ```
+</div>
 </div>
 
 <div class="output_wrapper" markdown="1">
@@ -327,6 +335,7 @@ m
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+# Click on the Interactive button at the top to execute and edit this code segment
 import numpy as np
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
