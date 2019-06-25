@@ -40,7 +40,7 @@ show(p)
 
     <div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1104"></span>
+        <span id="1754">Loading BokehJS ...</span>
     </div>
 </div>
 
@@ -61,7 +61,7 @@ show(p)
 
 
 
-  <div class="bk-root" id="35a312c8-c026-4fa1-9753-cc62a9f086da" data-root-id="1105"></div>
+  <div class="bk-root" id="275ce6f9-3b57-42aa-a155-ab232ffb66e6" data-root-id="1755"></div>
 
 </div>
 
