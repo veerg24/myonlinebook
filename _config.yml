@@ -62,7 +62,9 @@ binder_repo_name: myonlinebook                        # The name of the reposito
 binder_repo_branch: main                 # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
-use_interact_button: true
+# Binder Settings
+use_binder_button: true
+binderhub_interact_text: "Interact"
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
