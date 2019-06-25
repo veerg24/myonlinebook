@@ -39,9 +39,11 @@ var bootstrapThebe = function() {
 
 <script>
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
-</script>-->
+</script>
 
 <pre data-executable="true" data-language="python">print("Hello!")</pre>
+
+-->
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
