@@ -13,6 +13,18 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+<!-- Configure and load Thebe !-->
+<script type="text/x-thebe-config">
+  {
+    requestKernel: true,
+    binderOptions: {
+      repo: "binder-examples/requirements",
+    },
+  }
+</script>
+
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
