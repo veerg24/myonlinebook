@@ -13,7 +13,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
 ```python
 import numpy as np
 from bokeh.plotting import figure, show
@@ -28,13 +29,48 @@ output_notebook()
 p = figure()
 p.circle(x, y, radius=radii, fill_color=colors, fill_alpha=0.6, line_color=None)
 show(p)
-```
 
-<div class="bk-root">
-        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1754">Loading BokehJS ...</span>
+```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
 
-<div class="bk-root" id="275ce6f9-3b57-42aa-a155-ab232ffb66e6" data-root-id="1755"></div>
+<div markdown="0" class="output output_html">
+
+    <div class="bk-root">
+        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+        <span id="1754">Loading BokehJS ...</span>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+
+
+
+
+
+
+  <div class="bk-root" id="275ce6f9-3b57-42aa-a155-ab232ffb66e6" data-root-id="1755"></div>
+
+</div>
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+</div>
+</div>
+</div>
 
