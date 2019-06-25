@@ -346,14 +346,14 @@ show(p)
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
-
+<!--
 <div markdown="0" class="output output_html">
 
     <div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
         <span id="1001"></span>
     </div>
-</div>
+</div>-->
 
 </div>
 </div>
