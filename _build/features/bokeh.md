@@ -17,6 +17,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div class="input_area" markdown="1">
 ```python
 import numpy as np
+import sys
+!{sys.executable} -m pip install bokeh
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
 
