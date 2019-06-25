@@ -12,6 +12,17 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+<!-- Configure and load Thebe !-->
+<script type="text/x-thebe-config">
+  {
+    requestKernel: true,
+    binderOptions: {
+      repo: "binder-examples/requirements",
+    },
+  }
+</script>
+
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 
 # Content with notebooks
 
