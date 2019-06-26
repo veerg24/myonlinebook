@@ -46,7 +46,7 @@ search_max_words_in_content: 100   # In the search function, use at most this ma
 # Interact link settings
 
 # General interact settings
-use_jupyterlab: false                     # If 'true', interact links will use JupyterLab as the interface
+use_jupyterlab: true                     # If 'true', interact links will use JupyterLab as the interface
 
 # Jupyterhub link settings
 use_jupyterhub_button: false              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
@@ -62,14 +62,7 @@ binder_repo_name: myonlinebook                        # The name of the reposito
 binder_repo_branch: main                 # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
-# Binder Settings
-use_binder_button: true
-binderhub_interact_text: "Interact"
-binderhub_url: "https://mybinder.org"  # The URL for your BinderHub.
-binder_repo_base: "https://github.com/veerg24/myonlinebook"  # The site on which the textbook repository is hosted
-binder_repo_org: "veerg24"  # The username or organization that owns this repository
-binder_repo_name: "myonlinebook"  # The name of the repository on the web
-binder_repo_branch: "master"  
+ 
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
