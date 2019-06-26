@@ -76,6 +76,7 @@ print("hello")
 <div class="input_area" markdown="1">
 ```python
 # CLICK ON INTERACT TO EXECUTE THIS CODE SEGMENT WITHOUT ANY ERRORS
+
 import numpy as np
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
