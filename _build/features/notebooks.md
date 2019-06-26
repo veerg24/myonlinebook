@@ -27,6 +27,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+
 # Content with notebooks
 
 You can also create content with Jupyter Notebooks. The content for the current page is contained
