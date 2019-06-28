@@ -1,5 +1,5 @@
 ---
-interact_link: content/features/bokeh.ipynb
+interact_link: _build/features/bokeh.md
 kernel_name: python3
 has_widgets: false
 title: 'Bokeh'
