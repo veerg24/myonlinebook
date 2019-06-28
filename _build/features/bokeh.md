@@ -1,6 +1,6 @@
 ---
 interact_link: content/features/bokeh.ipynb
-<!--kernel_name: python3-->
+kernel_name: python3
 has_widgets: false
 title: 'Bokeh'
 prev_page:
