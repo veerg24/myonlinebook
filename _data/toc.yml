@@ -41,5 +41,7 @@
   url: /features/bokeh
 - title: Histogram
   url: /features/histogram
+- title: Sectional Map
+  url: /features/sectionalmap
 - title: Features
   url: /features/features

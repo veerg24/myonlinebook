@@ -7,8 +7,8 @@ prev_page:
   url: /features/bokeh
   title: 'Bokeh'
 next_page:
-  url: /features/features
-  title: 'Features'
+  url: /features/sectionalmap
+  title: 'Sectional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -48,19 +48,6 @@ else:
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Requirement already satisfied: xarray in /Applications/anaconda3/lib/python3.7/site-packages (0.12.1)
-Requirement already satisfied: numpy>=1.12 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (1.16.2)
-Requirement already satisfied: pandas>=0.19.2 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (0.24.2)
-Requirement already satisfied: python-dateutil>=2.5.0 in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2.8.0)
-Requirement already satisfied: pytz>=2011k in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2018.9)
-Requirement already satisfied: six>=1.5 in /Applications/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas>=0.19.2->xarray) (1.12.0)
-```
-</div>
-</div>
 </div>
 
 
@@ -199,15 +186,6 @@ plotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, 
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_data_text}
-```
-HBox(children=(IntProgress(value=0, description='overall', max=3, style=ProgressStyle(description_width='initi…
-```
-
-</div>
-</div>
 </div>
 
 
