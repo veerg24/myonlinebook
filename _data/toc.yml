@@ -43,5 +43,7 @@
   url: /features/histogram
 - title: Sectional Map
   url: /features/sectionalmap
+- title: Time Series
+  url: /features/timeseries
 - title: Features
   url: /features/features
