@@ -138,25 +138,6 @@ plotTS(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, de
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_data_text}
-```
-HBox(children=(IntProgress(value=0, description='overall', max=3, style=ProgressStyle(description_width='initi…
-```
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-1: sst retrieved (tblSST_AVHRR_OI_NRT).
-[0m2: sla retrieved (tblAltimetry_REP).
-[0m3: NO3 retrieved (tblPisces_NRT).
-[0m```
-</div>
-</div>
 </div>
 
 
@@ -183,23 +164,6 @@ plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, d
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_data_text}
-```
-HBox(children=(IntProgress(value=0, description='overall', max=1, style=ProgressStyle(description_width='initi…
-```
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-
-```
-</div>
-</div>
 </div>
 
 
