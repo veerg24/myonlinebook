@@ -39,5 +39,7 @@
   url: /features/notebooks
 - title: Bokeh
   url: /features/bokeh
+- title: Histogram
+  url: /features/histogram
 - title: Features
   url: /features/features
