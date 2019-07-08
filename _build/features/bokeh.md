@@ -16,6 +16,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+import sys
+!{sys.executable} -m pip install netCDF4
+!{sys.executable} -m pip install xarray
 import opedia
 import math
 import common as com
@@ -53,7 +56,7 @@ from netCDF4 import num2date, date2num
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
 
 
 ```
