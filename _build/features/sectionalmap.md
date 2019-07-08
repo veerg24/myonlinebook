@@ -353,7 +353,7 @@ sectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, 
 <div class="input_area" markdown="1">
 ```python
 #TESTS NETCDF-COMPATIBLE FUNCTION
-xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
 
 tables = [xFile]    # see catalog.csv  for the complete list of tables and variable names
 variabels = ['O2']                            # see catalog.csv  for the complete list of tables and variable name
