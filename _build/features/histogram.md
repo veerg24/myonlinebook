@@ -22,6 +22,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ```python
 import opedia
 import sys
+!{sys.executable} -m pip install xarray
 import os
 import numpy as np
 import pandas as pd
@@ -47,59 +48,24 @@ else:
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Requirement already satisfied: xarray in /Applications/anaconda3/lib/python3.7/site-packages (0.12.1)
+Requirement already satisfied: numpy>=1.12 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (1.16.2)
+Requirement already satisfied: pandas>=0.19.2 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (0.24.2)
+Requirement already satisfied: python-dateutil>=2.5.0 in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2.8.0)
+Requirement already satisfied: pytz>=2011k in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2018.9)
+Requirement already satisfied: six>=1.5 in /Applications/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas>=0.19.2->xarray) (1.12.0)
+```
+</div>
+</div>
 </div>
 
 
 
 ### Testing Function
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-
-tables = ['tblSST_AVHRR_OI_NRT', 'tblArgoMerge_REP', 'tblArgoMerge_REP']           # see catalog.csv  for the complete list of tables and variable names
-variables = ['sst', 'argo_merge_temperature_adj', 'argo_merge_salinity_adj']       # see catalog.csv  for the complete list of tables and variable names
-startDate = '2016-04-30'
-endDate = '2016-04-30'
-lat1, lat2 = 20, 24
-lon1, lon2 = -170, 150
-depth1, depth2 = 0, 20
-fname = 'DEP'
-exportDataFlag = False      # True if you you want to download data
-
-plotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-
-```
-</div>
-
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
-
-tables = [xFile]           # see catalog.csv  for the complete list of tables and variable names
-variables = ['O2']       # see catalog.csv  for the complete list of tables and variable names
-startDate = '2010-04-30'
-endDate = '2010-04-30'
-lat1, lat2 = -80, 80
-lon1, lon2 = -80, 80
-depth1, depth2 = 0, 10
-fname = 'DEP'
-exportDataFlag = False      # True if you you want to download data
-
-xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-```
-</div>
-
-</div>
 
 
 
@@ -205,6 +171,63 @@ def xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2
    #     output_file(dirPath + fname + ".html", title="Histogram")
     show(column(p))
     return
+
+```
+</div>
+
+</div>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+
+tables = ['tblSST_AVHRR_OI_NRT', 'tblArgoMerge_REP', 'tblArgoMerge_REP']           # see catalog.csv  for the complete list of tables and variable names
+variables = ['sst', 'argo_merge_temperature_adj', 'argo_merge_salinity_adj']       # see catalog.csv  for the complete list of tables and variable names
+startDate = '2016-04-30'
+endDate = '2016-04-30'
+lat1, lat2 = 20, 24
+lon1, lon2 = -170, 150
+depth1, depth2 = 0, 20
+fname = 'DEP'
+exportDataFlag = False      # True if you you want to download data
+
+plotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+HBox(children=(IntProgress(value=0, description='overall', max=3, style=ProgressStyle(description_width='initi…
+```
+
+</div>
+</div>
+</div>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+
+tables = [xFile]           # see catalog.csv  for the complete list of tables and variable names
+variables = ['O2']       # see catalog.csv  for the complete list of tables and variable names
+startDate = '2010-04-30'
+endDate = '2010-04-30'
+lat1, lat2 = -80, 80
+lon1, lon2 = -80, 80
+depth1, depth2 = 0, 10
+fname = 'DEP'
+exportDataFlag = False      # True if you you want to download data
+
+xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
 
 ```
 </div>
