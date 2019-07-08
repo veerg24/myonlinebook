@@ -201,50 +201,5 @@ regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_data_text}
-```
-HBox(children=(IntProgress(value=0, description='overall', max=1, style=ProgressStyle(description_width='initi…
-```
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-
-```
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_traceback_line}
-```
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-17-3382d0f2ff68> in <module>()
-    ----> 1 regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-          2 
-
-
-    <ipython-input-13-9146b2827f12> in regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-          4         unit = tables[i].variables[variables[i]].attrs['units']
-          5 
-    ----> 6         toDateTime = tables[i].indexes['TIME'].to_datetimeindex()
-          7         tables[i]['TIME'] = toDateTime
-          8         table = tables[i].sel(TIME = slice(startDate, endDate), LAT_C = slice(lat1, lat2), LON_C = slice(lon1, lon2), DEP_C = slice(depth1, depth2))
-
-
-    AttributeError: 'DatetimeIndex' object has no attribute 'to_datetimeindex'
-
-
-```
-</div>
-</div>
 </div>
 
