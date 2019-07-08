@@ -13,6 +13,10 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+## RegionalMap Method
+
+
+
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
@@ -42,10 +46,6 @@ from netCDF4 import num2date, date2num
 </div>
 
 </div>
-
-
-
-## RegionalMap Method
 
 
 
