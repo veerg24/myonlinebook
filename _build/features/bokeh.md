@@ -41,40 +41,6 @@ from netCDF4 import num2date, date2num
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Requirement already satisfied: netCDF4 in /Users/VeerGadodia/.local/lib/python3.7/site-packages (1.5.1.2)
-Requirement already satisfied: cftime in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.0.3.4)
-Requirement already satisfied: numpy>=1.7 in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.16.2)
-Requirement already satisfied: xarray in /Applications/anaconda3/lib/python3.7/site-packages (0.12.1)
-Requirement already satisfied: numpy>=1.12 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (1.16.2)
-Requirement already satisfied: pandas>=0.19.2 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (0.24.2)
-Requirement already satisfied: python-dateutil>=2.5.0 in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2.8.0)
-Requirement already satisfied: pytz>=2011k in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2018.9)
-Requirement already satisfied: six>=1.5 in /Applications/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas>=0.19.2->xarray) (1.12.0)
-```
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-<div markdown="0" class="output output_html">
-
-    <div class="bk-root">
-        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1001">Loading BokehJS ...</span>
-    </div>
-</div>
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-</div>
-</div>
 </div>
 
 
@@ -221,6 +187,7 @@ def bokehMap(data, subject, fname, lat, lon, units, tables, variabels):
 <div class="input_area" markdown="1">
 ```python
 regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+
 
 
 ```
