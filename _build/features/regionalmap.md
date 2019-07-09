@@ -1,5 +1,5 @@
 ---
-interact_link: content/features/bokeh.ipynb
+interact_link: content/features/regionalmap.ipynb
 kernel_name: python3
 has_widgets: false
 title: 'Bokeh'
@@ -7,8 +7,8 @@ prev_page:
   url: /features/notebooks
   title: 'Notebooks'
 next_page:
-  url: /features/features
-  title: 'Features'
+  url: /features/histogram
+  title: 'Histogram'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
