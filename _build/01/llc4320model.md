@@ -8,7 +8,7 @@ prev_page:
   title: 'cs510 model'
 next_page:
   url: /02/llc90plottingexamples
-  title: 'Markdown'
+  title: 'llc90 plotting examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
