@@ -1,5 +1,5 @@
 ---
-title: 'Intro'
+title: 'Introduction'
 prev_page:
   url: /LICENSE
   title: 'License'
