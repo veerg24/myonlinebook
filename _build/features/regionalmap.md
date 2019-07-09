@@ -2,7 +2,7 @@
 interact_link: content/features/regionalmap.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Bokeh'
+title: 'Regional Map'
 prev_page:
   url: /features/notebooks
   title: 'Notebooks'
