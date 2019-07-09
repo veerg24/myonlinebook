@@ -29,7 +29,6 @@
 # ===== NEW SECTION ========================================
 - title: cbiomes
   url: https://cbiomes.org
-  external: true
   not_numbered: true
 
 - divider: true
