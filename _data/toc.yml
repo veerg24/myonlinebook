@@ -29,8 +29,10 @@
 # ===== NEW SECTION ========================================
 - title: Introduction
   url: /intro
+  not_numbered: true
 - title: About
   url: /about
+  not_numbered: true
 
 # ===== NEW SECTION ========================================
 - title: Overview
