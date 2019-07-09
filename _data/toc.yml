@@ -33,6 +33,8 @@
   url: intro
 
 # ===== NEW SECTION ========================================
+- title: Features2
+  url: /features
 - title: Markdown
   url: /features/markdown
 - title: Notebooks
