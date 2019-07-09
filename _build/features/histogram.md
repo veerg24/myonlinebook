@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'Histogram'
 prev_page:
-  url: /features/bokeh
-  title: 'Bokeh'
+  url: /features/regionalmap
+  title: 'Regional Map'
 next_page:
   url: /features/sectionalmap
   title: 'Sectional Map'
@@ -23,6 +23,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 import opedia
 import sys
 !{sys.executable} -m pip install xarray
+!{sys.executable} -m pip install netCDF4
+import netCDF4
 import os
 import numpy as np
 import pandas as pd

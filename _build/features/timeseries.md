@@ -21,8 +21,10 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div class="input_area" markdown="1">
 ```python
 import opedia
-import netCDF4
 import sys
+!{sys.executable} -m pip install netCDF4
+!{sys.executable} -m pip install xarray
+import netCDF4
 import os
 import json
 import xarray as xr
@@ -113,61 +115,6 @@ def plotTS(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1
 
 
 
-### Testing Space
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-#TESTS ORIGINAL FUNCTION
-
-tables = ['tblSST_AVHRR_OI_NRT', 'tblAltimetry_REP', 'tblPisces_NRT']    # see catalog.csv  for the complete list of tables and variable names
-variables = ['sst', 'sla', 'NO3']                                        # see catalog.csv  for the complete list of tables and variable names
-startDate = '2016-03-29'
-endDate = '2016-05-29'
-lat1, lat2 = 25, 30
-lon1, lon2 = -160, -155
-depth1, depth2 = 0, 5
-fname = 'TS'
-exportDataFlag = False      # True if you you want to download data
-
-plotTS(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-
-```
-</div>
-
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-#TESTS XARRAY IMPLEMENTATION
-
-xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
-
-tables = [xFile]    # see catalog.csv  for the complete list of tables and variable names
-variables = ['O2']                                        # see catalog.csv  for the complete list of tables and variable names
-startDate = '2000-12-31'
-endDate = '2001-12-31'
-lat1, lat2 = 25, 30
-lon1, lon2 = -160, -155
-depth1, depth2 = 0, 5
-fname = 'TS'
-exportDataFlag = False      # True if you you want to download data
-
-plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-```
-</div>
-
-</div>
-
-
-
 ### Xarray Implementation (yippee)
 
 
@@ -220,6 +167,61 @@ def plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth
     #   output_file(dirPath + fname + ".html", title="TimeSeries")
     show(column(p))
     return
+
+```
+</div>
+
+</div>
+
+
+
+### Testing Space
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+#TESTS ORIGINAL FUNCTION
+
+tables = ['tblSST_AVHRR_OI_NRT', 'tblAltimetry_REP', 'tblPisces_NRT']    # see catalog.csv  for the complete list of tables and variable names
+variables = ['sst', 'sla', 'NO3']                                        # see catalog.csv  for the complete list of tables and variable names
+startDate = '2016-03-29'
+endDate = '2016-05-29'
+lat1, lat2 = 25, 30
+lon1, lon2 = -160, -155
+depth1, depth2 = 0, 5
+fname = 'TS'
+exportDataFlag = False      # True if you you want to download data
+
+plotTS(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+
+
+```
+</div>
+
+</div>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+#TESTS XARRAY IMPLEMENTATION
+
+xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+
+tables = [xFile]    # see catalog.csv  for the complete list of tables and variable names
+variables = ['O2']                                        # see catalog.csv  for the complete list of tables and variable names
+startDate = '2000-12-31'
+endDate = '2001-12-31'
+lat1, lat2 = 25, 30
+lon1, lon2 = -160, -155
+depth1, depth2 = 0, 5
+fname = 'TS'
+exportDataFlag = False      # True if you you want to download data
+
+plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
 
 ```
 </div>

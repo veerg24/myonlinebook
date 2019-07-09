@@ -7,8 +7,8 @@ prev_page:
   url: /features/histogram
   title: 'Histogram'
 next_page:
-  url: /features/features
-  title: 'Features'
+  url: /features/timeseries
+  title: 'Time Series'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
