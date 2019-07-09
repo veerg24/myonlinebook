@@ -45,6 +45,38 @@
   - title: llc4320 model
     url: /01/llc4320model
 
+# ===== NEW SECTION ========================================
+- title: llc90 plotting examples
+  url: /02/llc90plottingexamples
+  sections:
+  - title: XY plot
+    url: /02/xyplot
+
+# ===== NEW SECTION ========================================
+- title: cs510 plotting examples
+  url: /03/cs510plottingexamples
+  # sections:
+  # - title: XY plot
+  #   url: /02/xyplot
+
+# ===== NEW SECTION ========================================
+- title: llc4320 plotting examples
+  url: /04/llc4320plottingexamples
+  # sections:
+  # - title: XY plot
+  #   url: /02/xyplot
+
+# ===== NEW SECTION ========================================
+- title: Demo applications
+  url: /05/demoapplications
+  sections:
+  - title: ecosystem clustering example
+    url: /05/ecosystem clustering example
+  - title: standard plots
+    url: /05/standardplots
+
+
+
 - title: Markdown
   url: /features/markdown
 - title: Notebooks
