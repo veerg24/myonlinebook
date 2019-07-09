@@ -1,6 +1,6 @@
 ---
 interact_link: content/03/cs510plottingexamples.ipynb
-kernel_name: 
+kernel_name: python3
 has_widgets: false
 title: 'cs510 plotting examples'
 prev_page:

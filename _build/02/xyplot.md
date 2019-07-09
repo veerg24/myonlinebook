@@ -1,6 +1,6 @@
 ---
 interact_link: content/02/xyplot.ipynb
-kernel_name: 
+kernel_name: python3
 has_widgets: false
 title: 'XY plot'
 prev_page:

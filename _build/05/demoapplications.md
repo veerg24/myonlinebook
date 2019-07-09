@@ -1,6 +1,6 @@
 ---
 interact_link: content/05/demoapplications.ipynb
-kernel_name: 
+kernel_name: python3
 has_widgets: false
 title: 'Demo applications'
 prev_page:
