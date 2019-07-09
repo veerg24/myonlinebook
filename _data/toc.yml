@@ -86,17 +86,17 @@
 
 
 
-- title: Markdown
-  url: /features/markdown
-- title: Notebooks
-  url: /features/notebooks
-- title: Regional Map
-  url: /features/regionalmap
-- title: Histogram
-  url: /features/histogram
-- title: Sectional Map
-  url: /features/sectionalmap
-- title: Time Series
-  url: /features/timeseries
-- title: Features
-  url: /features/features
+# - title: Markdown
+#   url: /features/markdown
+# - title: Notebooks
+#   url: /features/notebooks
+# - title: Regional Map
+#   url: /features/regionalmap
+# - title: Histogram
+#   url: /features/histogram
+# - title: Sectional Map
+#   url: /features/sectionalmap
+# - title: Time Series
+#   url: /features/timeseries
+# - title: Features
+#   url: /features/features
