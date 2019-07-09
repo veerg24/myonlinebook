@@ -34,7 +34,7 @@
 - divider: true
 
 - title: Introduction
-  url: /intro
+  url: /
   not_numbered: true
 - title: About
   url: /about
