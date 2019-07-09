@@ -45,6 +45,40 @@ from netCDF4 import num2date, date2num
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Requirement already satisfied: netCDF4 in /Users/VeerGadodia/.local/lib/python3.7/site-packages (1.5.1.2)
+Requirement already satisfied: numpy>=1.7 in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.16.2)
+Requirement already satisfied: cftime in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.0.3.4)
+Requirement already satisfied: xarray in /Applications/anaconda3/lib/python3.7/site-packages (0.12.1)
+Requirement already satisfied: pandas>=0.19.2 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (0.24.2)
+Requirement already satisfied: numpy>=1.12 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (1.16.2)
+Requirement already satisfied: pytz>=2011k in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2018.9)
+Requirement already satisfied: python-dateutil>=2.5.0 in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2.8.0)
+Requirement already satisfied: six>=1.5 in /Applications/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas>=0.19.2->xarray) (1.12.0)
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+
+    <div class="bk-root">
+        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+        <span id="1001">Loading BokehJS ...</span>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+</div>
+</div>
 </div>
 
 
@@ -201,5 +235,56 @@ regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+HBox(children=(IntProgress(value=0, description='overall', max=1, style=ProgressStyle(description_width='initi…
+```
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_traceback_line}
+```
+
+    ---------------------------------------------------------------------------
+
+    AttributeError                            Traceback (most recent call last)
+
+    <ipython-input-6-3382d0f2ff68> in <module>()
+    ----> 1 regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+          2 
+
+
+    <ipython-input-4-9146b2827f12> in regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+         22         lons = [np.asarray(lons)]
+         23 
+    ---> 24         bokehMap(varData, unit, 'regional', lats, lons, unit, 'OTHER', variables[i])
+    
+
+    <ipython-input-5-976ca09649b9> in bokehMap(data, subject, fname, lat, lon, units, tables, variabels)
+          4     for ind in range(len(data)):
+          5 
+    ----> 6         w, h = com.canvasRect(dw=np.max(lon[ind])-np.min(lon[ind]), dh=np.max(lat[ind])-np.min(lat[ind]))
+          7         p1 = figure(tools=TOOLS, toolbar_location="right", title=subject[ind], plot_width=w, plot_height=h, x_range=(np.min(lon[ind]), np.max(lon[ind])), y_range=(np.min(lat[ind]), np.max(lat[ind])))
+          8         p1.xaxis.axis_label = 'Longitude'
+
+
+    AttributeError: module 'common' has no attribute 'canvasRect'
+
+
+```
+</div>
+</div>
 </div>
 
