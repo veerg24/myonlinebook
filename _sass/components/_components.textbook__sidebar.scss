@@ -21,8 +21,6 @@ $color-sidebar-divider: #bbb !default;
   @include inuit-font-size(10px);
   border-right: 4px solid rgba(0, 0, 0, 0.07);
   opacity: 1;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
   &:hover {
     opacity: 1;
   }
