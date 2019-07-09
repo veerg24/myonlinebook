@@ -27,12 +27,17 @@
 
 
 # ===== NEW SECTION ========================================
+
+- divider: true
+
 - title: Introduction
   url: /intro
   not_numbered: true
 - title: About
   url: /about
   not_numbered: true
+
+- divider: true
 
 # ===== NEW SECTION ========================================
 - title: Overview
