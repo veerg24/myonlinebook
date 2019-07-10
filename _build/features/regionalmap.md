@@ -13,10 +13,6 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-# LLC 4320 Model
-
-
-
 ## RegionalMap Method
 
 
@@ -61,7 +57,6 @@ from netCDF4 import num2date, date2num
 <div class="input_area" markdown="1">
 ```python
 xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
-
 
 ```
 </div>
