@@ -24,8 +24,6 @@
 # generate a demo book by running `jupyter-book create mybook --demo`
 # ==============================
 
-#try title and intro thing using textbook repository
-
 # ===== NEW SECTION ========================================
 - title: CBIOMES
   url: https://cbiomes.org

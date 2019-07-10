@@ -23,8 +23,9 @@
  *   simultaneously, so make sure that the page doesn't overflow.
  */
 
+/*
 .c-textbook {
-  /* [1] */
+  // [1]
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -35,10 +36,69 @@
 
 .c-textbook__sidebar,
 .c-textbook__page {
-  /* [2] */
+  // [2]
   position: absolute;
   height: 100vh;
   overflow: auto;
+  background-color: white; // [3]
+}
+
+.c-textbook__sidebar {
+  width: $sidebar-width;
+}
+
+.c-textbook__page {
+  width: 100%;
+
+  transition: transform 250ms ease;
+}
+
+.js-show-sidebar {
+  .c-textbook__page {
+    // [4]
+    transform: translate($sidebar-width, 0);
+
+    @include mq($from: tablet) {
+      // [5]
+      width: calc(100% - #{$sidebar-width});
+    }
+  }
+}
+
+// Scrollbar width
+::-webkit-scrollbar {
+  width: 5px;
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+main, nav {
+  scrollbar-width: thin;
+}
+
+*/
+
+// New
+
+$sidebar-width: 260px;
+
+.c-textbook {
+  /* [1] */
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.c-textbook__sidebar,
+.c-textbook__page {
+  /* [2] */
+  position: absolute;
+  height: 100vh;
+  overflow: scroll;
+
   background-color: white; /* [3] */
 }
 
@@ -62,18 +122,4 @@
       width: calc(100% - #{$sidebar-width});
     }
   }
-}
-
-// Scrollbar width
-::-webkit-scrollbar {
-  width: 5px;
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-}
-
-main, nav {
-  scrollbar-width: thin;
 }
