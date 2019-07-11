@@ -58,7 +58,7 @@
     url: /01/llc4320model
 
 # ===== NEW SECTION ========================================
-- title: llc90 plotting examples
+- title: LLC90 Plotting Examples
   url: /02/llc90plottingexamples
   sections:
   - title: Regional Map
@@ -73,14 +73,14 @@
     url: /02/xyplot
 
 # ===== NEW SECTION ========================================
-- title: cs510 plotting examples
+- title: CS510 Plotting Examples
   url: /03/cs510plottingexamples
   # sections:
   # - title: XY plot
   #   url: /02/xyplot
 
 # ===== NEW SECTION ========================================
-- title: llc4320 plotting examples
+- title: LLC4320 Plotting Examples
   url: /04/llc4320plottingexamples
   # sections:
   # - title: XY plot
