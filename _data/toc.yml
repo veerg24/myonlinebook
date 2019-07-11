@@ -103,12 +103,12 @@
     url: /04/xyplot
 
 # ===== NEW SECTION ========================================
-- title: Demo applications
+- title: Demo Applications
   url: /05/demoapplications
   sections:
-  - title: ecosystem clustering example
+  - title: Ecosystem Clustering Example
     url: /05/ecosystemclusteringexample
-  - title: standard plots
+  - title: Standard Plots
     url: /05/standardplots
 
 
