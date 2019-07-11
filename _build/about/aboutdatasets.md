@@ -1,8 +1,8 @@
 ---
-title: 'Datasets'
+title: 'About the Datasets'
 prev_page:
   url: /about/aboutinteractivebooks
-  title: 'Interactive Books'
+  title: 'About the Interactive Book'
 next_page:
   url: /01/overviewofmodelsandoutputrepositories
   title: 'Overview'

@@ -5,7 +5,7 @@ prev_page:
   title: 'Introduction'
 next_page:
   url: /about/aboutinteractivebooks
-  title: 'Interactive Books'
+  title: 'About the Interactive Book'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # About
