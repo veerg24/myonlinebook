@@ -15,6 +15,7 @@
  * [5]: Inline code snippets (usually variable names) should have a gray bg.
  */
 
+/**
 .c-textbook__page {
   // [1] 
   padding: $spacing-unit-small 0;
@@ -168,10 +169,11 @@ div.output_subarea {
 .jp-OutputPrompt {
   display: none;
 }
+*/
 
 // New
 
-/**
+
 .c-textbook__page {
   // [1]
   padding: $spacing-unit-small 0;
@@ -215,23 +217,74 @@ div.output_subarea {
     overflow-x: auto;
   }
 
-  // [5]
-  code {
-    background-color: $color-light-gray;
-    padding: 4px;
+// [5]
+code {
+  padding: 4px;
+  overflow-x: auto;
+  @include inuit-font-size(14px);
+}
 
-    @include inuit-font-size(14px);
+pre.highlight code {
+  display: block;
+}
+
+blockquote {
+  margin: $spacing-unit-small;
+  padding: $spacing-unit-med;
+  border-left: 4px solid $color-dark-gray;
+
+  p:last-child {
+    margin-bottom: 0;
   }
+}
 
-  blockquote {
-    margin: $spacing-unit-small;
-    padding: $spacing-unit-med;
-    border-left: 4px solid $color-dark-gray;
+// Outputs 
+.output_stream,
+.output_data_text,
+.output_traceback_line {
+  margin-left: 2% !important;
+  border: none !important;
+  border-radius: 4px !important;
+  background-color: #fafafa !important;
+  box-shadow: none !important;
+}
 
-    p:last-child {
-      margin-bottom: 0;
-    }
-  }
+.output_stream:before,
+.output_data_text:before,
+.output_traceback_line:before {
+  content: none !important;
+}
+
+.output_text pre {
+  background-color: #f8f8fb !important;
+}
+
+.output_html,
+.output_png::before {
+  padding: 1em 1.5em !important;
+}
+
+.output_png img,
+p img {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.output_png img {
+  width: 100% !important;
+}
+
+.hl-ipython3 pre::before,
+.output_subarea pre::before,
+.output_html::before,
+.output_png::before {
+  color: #ccc !important;
+  float: left !important;
+  margin-bottom: 0.25em !important;
+  width: 100% !important;
+}
 
 //nbinteract styling
 
@@ -267,4 +320,3 @@ div.output_subarea {
     display: none;
   }
 }
-*/
