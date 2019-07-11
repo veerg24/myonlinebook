@@ -7,8 +7,8 @@ prev_page:
   url: /features/markdown
   title: 'Markdown'
 next_page:
-  url: 
-  title: ''
+  url: /features/depth
+  title: 'Depth'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

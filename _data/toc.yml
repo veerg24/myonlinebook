@@ -119,5 +119,7 @@
     url: /features/markdown
   - title: Notebooks
     url: /features/notebooks
+  - title: Depth
+    url: /features/depth
 
     
