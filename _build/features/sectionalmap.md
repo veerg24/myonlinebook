@@ -22,12 +22,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ```python
 import opedia
 import sys
-!{sys.executable} -m pip install netCDF4
-!{sys.executable} -m pip install xarray
 import os
 import numpy as np
 import pandas as pd
-import netCDF4
 import xarray as xr
 import datetime as dt
 from scipy.interpolate import griddata
@@ -35,6 +32,7 @@ import db
 import subset
 import common as com
 import climatology as clim
+from bokeh.io import output_notebook
 from datetime import datetime, timedelta
 import time
 from bokeh.plotting import figure, show, output_file
@@ -87,23 +85,12 @@ def sectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, dept
         lons = df.lon.unique()
         depths = df.depth.unique()
         shape = (len(lats), len(lons), len(depths))
-        
-        print('------------------Times:')
-        print(times)
-        print('------------------Lats:')
-        print(lats)
-        print('------------------Lons:')
-        print(lons)
-        print('------------------Depths:')
-        print(depths)
 
         hours =  [None]
         if 'hour' in df.columns:
             hours = df.hour.unique()
 
         unit = com.getUnit(tables[i], variabels[i])
-        
-        print(hours)
 
         for t in times:
             for h in hours:
@@ -126,7 +113,6 @@ def sectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, dept
                 units.append(unit)
                 subs.append(sub)
                 
-    print(data)            
     bokehSec(data=data, subject=subs, fname=fname, ys=ys, xs=xs, zs=zs, units=units, variabels=frameVars)
     return
 
@@ -163,7 +149,7 @@ def xarraySectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1
         times = np.unique(table.variables['TIME'].values)
         lats = np.unique(table.variables['LAT_C'].values)
         lons = np.unique(table.variables['LON_C'].values)
-        depths = np.unique(table.variables['DEP_C'].values)
+        depths = np.flip(np.unique(table.variables['DEP_C'].values))
         shape = (len(lats), len(lons), len(depths))
         
         hours = [None]
@@ -192,7 +178,6 @@ def xarraySectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1
                 units.append(unit)
                 subs.append(sub)
     
-    print(data)
     bokehSec(data=data, subject=subs, fname=fname, ys=ys, xs=xs, zs=zs, units=units, variabels=frameVars)
     return
 
@@ -225,15 +210,11 @@ def bokehSec(data, subject, fname, ys, xs, zs, units, variabels):
         bounds = (None, None)
         paletteName = com.getPalette(variabels[ind], 10)
         low, high = bounds[0], bounds[1]
+        
         if low == None:
-            print("low: ")
-            print(np.min(data[ind]))
             low, high = np.nanmin(data[ind].flatten()), np.nanmax(data[ind].flatten())
         color_mapper = LinearColorMapper(palette=paletteName, low=low, high=high)
-        
-        print("low: " + str(low))
-        print("high: " + str(high))
-        
+        output_notebook()
         if len(lon) > len(lat):
             p1 = figure(tools=TOOLS, toolbar_location="above", title=subject[ind], plot_width=w, plot_height=h, x_range=(np.min(lon), np.max(lon)), y_range=(-np.max(depth), -np.min(depth)))
             data = np.nanmean(data, axis=0)
@@ -267,10 +248,10 @@ def bokehSec(data, subject, fname, ys, xs, zs, units, variabels):
         p1.add_layout(color_bar, 'right')
         p.append(p1)
     dirPath = 'embed/'
-    if not os.path.exists(dirPath):
-        os.makedirs(dirPath)        
+   # if not os.path.exists(dirPath):
+   #     os.makedirs(dirPath)        
    # if not inline:      ## if jupyter is not the caller
-   #     output_file(dirPath + fname + ".html", title="Section Map")
+   # output_file(dirPath + fname + ".html", title="Section Map")
     show(column(p))
     return
 
@@ -327,38 +308,13 @@ def regulate(lat, lon, depth, data):
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-#THIS TESTS THE ORIGINAL SECTIONAL FUNCTION
-
-tables = ['tblDarwin_Nutrient_Climatology']    # see catalog.csv  for the complete list of tables and variable names
-variabels = ['CDOM_darwin_clim']                            # see catalog.csv  for the complete list of tables and variable names
-
-dt1 = '2016-04-30'   # PISCES is a weekly model, and here we are using monthly climatology of Darwin model
-dt2 = '2016-04-30'
-lat1, lat2 = 23, 55
-lon1, lon2 = -159, -157
-depth1, depth2 = 0, 3597
-fname = 'sectional'
-exportDataFlag = False       # True if you you want to download data
-
-sectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-```
-</div>
-
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
 #TESTS NETCDF-COMPATIBLE FUNCTION
-xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
 
 tables = [xFile]    # see catalog.csv  for the complete list of tables and variable names
 variabels = ['O2']                            # see catalog.csv  for the complete list of tables and variable name
-dt1 = '2016-04-21'   # PISCES is a weekly model, and here we are using monthly climatology of Darwin model
-dt2 = '2016-04-23'
+dt1 = '2016-04-22'   # PISCES is a weekly model, and here we are using monthly climatology of Darwin model
+dt2 = '2016-04-22'
 lat1, lat2 = 23, 55
 lon1, lon2 = -159, -157
 depth1, depth2 = 0, 3597

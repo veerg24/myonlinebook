@@ -22,6 +22,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ```python
 import opedia
 import sys
+!{sys.executable} -m pip install netCDF4
+!{sys.executable} -m pip install xarray
+import netCDf4
 import os
 import numpy as np
 import pandas as pd
