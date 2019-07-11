@@ -1,8 +1,8 @@
 ---
 title: 'Features'
 prev_page:
-  url: /features/timeseries
-  title: 'Time Series'
+  url: /features/notebooks
+  title: 'Notebooks'
 next_page:
   url: 
   title: ''

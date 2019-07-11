@@ -7,11 +7,22 @@ prev_page:
   url: /features/markdown
   title: 'Markdown'
 next_page:
-  url: /features/regionalmap
-  title: 'Regional Map'
+  url: /features/features
+  title: 'Features'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+<!-- Configure and load Thebe !-->
+<script type="text/x-thebe-config">
+  {
+    requestKernel: true,
+    binderOptions: {
+      repo: "binder-examples/requirements",
+    },
+  }
+</script>
+
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 
 # Content with notebooks
 
@@ -49,8 +60,6 @@ But make sure you \\$Escape \\$your \\$dollar signs \\$you want to keep!
 Textbooks with Jupyter will also embed your code blocks and output in your site.
 For example, here's some sample Matplotlib code:
 
-
-
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
@@ -59,14 +68,6 @@ print("hello")
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-hello
-```
-</div>
-</div>
 </div>
 
 
@@ -74,6 +75,8 @@ hello
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+# CLICK ON INTERACT TO EXECUTE THIS CODE SEGMENT WITHOUT ANY ERRORS
+
 import numpy as np
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
@@ -91,45 +94,6 @@ show(p)
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-<div markdown="0" class="output output_html">
-
-    <div class="bk-root">
-        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1104">Loading BokehJS ...</span>
-    </div>
-</div>
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-<div markdown="0" class="output output_html">
-
-
-
-
-
-
-  <div class="bk-root" id="116a039a-5bec-4813-81aa-ceefea58a9b3" data-root-id="1105"></div>
-
-</div>
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-</div>
-</div>
 </div>
 
 
