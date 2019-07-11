@@ -22,9 +22,6 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ```python
 import opedia
 import sys
-!{sys.executable} -m pip install xarray
-!{sys.executable} -m pip install netCDF4
-import netCDF4
 import os
 import numpy as np
 import pandas as pd
@@ -34,6 +31,7 @@ import subset
 import common as com
 from datetime import datetime, timedelta
 import time
+from bokeh.io import output_notebook
 from math import pi
 from bokeh.plotting import figure, show, output_file
 from bokeh.layouts import column
@@ -51,10 +49,6 @@ else:
 </div>
 
 </div>
-
-
-
-### Testing Function
 
 
 
@@ -129,7 +123,7 @@ def xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2
         varData = tables[i].sel(TIME = slice(startDate, endDate), LAT_C = slice(lat1, lat2), LON_C = slice(lon1, lon2), DEP_C = slice(depth1, depth2))
         varData = varData.variables[variables[i]][:].values
         varData[varData < 0] = float('NaN')
-
+        
         varData = varData.tolist()[0][0]
         elems = []
         for list in varData:
@@ -145,6 +139,9 @@ def xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2
             continue   
             
         hist, edges = np.histogram(varData, density=True, bins=50)
+        
+        output_notebook()
+        
         p1 = figure(tools=TOOLS, toolbar_location="above", plot_width=w, plot_height=h)
         p1.yaxis.axis_label = 'Density'
         p1.xaxis.axis_label = variables[i] + ' (' +str(unit) + ')'
@@ -156,8 +153,10 @@ def xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2
     dirPath = 'embed/'
     if not os.path.exists(dirPath):
         os.makedirs(dirPath)        
-   # if not inline:      ## if jupyter is not the caller
-   #     output_file(dirPath + fname + ".html", title="Histogram")
+    
+    #if not inline:      ## if jupyter is not the caller
+    #    output_file(dirPath + fname + ".html", title="Histogram")
+    #    print('test')
     show(column(p))
     return
 
@@ -168,27 +167,7 @@ def xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2
 
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-
-tables = ['tblSST_AVHRR_OI_NRT', 'tblArgoMerge_REP', 'tblArgoMerge_REP']           # see catalog.csv  for the complete list of tables and variable names
-variables = ['sst', 'argo_merge_temperature_adj', 'argo_merge_salinity_adj']       # see catalog.csv  for the complete list of tables and variable names
-startDate = '2016-04-30'
-endDate = '2016-04-30'
-lat1, lat2 = 20, 24
-lon1, lon2 = -170, 150
-depth1, depth2 = 0, 20
-fname = 'DEP'
-exportDataFlag = False      # True if you you want to download data
-
-plotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-
-```
-</div>
-
-</div>
+### Testing Function
 
 
 
@@ -209,8 +188,65 @@ exportDataFlag = False      # True if you you want to download data
 
 xarrayPlotDist(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
 
+
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+HBox(children=(IntProgress(value=0, description='overall', max=1, style=ProgressStyle(description_width='initi…
+```
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+
+    <div class="bk-root">
+        <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+        <span id="1333">Loading BokehJS ...</span>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+<div markdown="0" class="output output_html">
+
+
+
+
+
+
+  <div class="bk-root" id="3905cbf3-2119-473c-9bd4-9bc8de28e695" data-root-id="1408"></div>
+
+</div>
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+</div>
+</div>
 </div>
 
