@@ -7,7 +7,7 @@ prev_page:
   url: /05/ecosystemclusteringexample
   title: 'Ecosystem Clustering Example'
 next_page:
-  url: /features/markdown
-  title: 'Markdown'
+  url: /features/features
+  title: 'Features'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
