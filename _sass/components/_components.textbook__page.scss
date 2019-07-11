@@ -15,7 +15,6 @@
  * [5]: Inline code snippets (usually variable names) should have a gray bg.
  */
 
-/**
 .c-textbook__page {
   // [1] 
   padding: $spacing-unit-small 0;
@@ -169,11 +168,10 @@ div.output_subarea {
 .jp-OutputPrompt {
   display: none;
 }
-*/
 
 // New
 
-
+/**
 .c-textbook__page {
   // [1]
   padding: $spacing-unit-small 0;
@@ -320,3 +318,4 @@ p img {
     display: none;
   }
 }
+*/
