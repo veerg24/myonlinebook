@@ -15,7 +15,6 @@
  * [5]: Inline code snippets (usually variable names) should have a gray bg.
  */
 
-/**
 .c-textbook__page {
   // [1] 
   padding: $spacing-unit-small 0;
@@ -169,12 +168,12 @@ div.output_subarea {
 .jp-OutputPrompt {
   display: none;
 }
-*/
 
 // New
 
+/**
 .c-textbook__page {
-  /* [1] */
+  // [1]
   padding: $spacing-unit-small 0;
 
   @include mq($from: tablet, $until: desktop) {
@@ -188,14 +187,13 @@ div.output_subarea {
   }
 
   &:focus {
-    /* [2] */
+    // [2]
     outline: none;
   }
 }
 
-/**
- * Jupyter notebook styling
- */
+//Jupyter notebook styling
+
 
 #ipython-notebook {
   .input_area pre,
@@ -208,16 +206,16 @@ div.output_subarea {
   }
 
   .input_area pre {
-    /* [3] */
+    // [3]
     border: 1px solid $color-dark-gray;
   }
 
   .output_html {
-    /* [4] */
+    // [4]
     overflow-x: auto;
   }
 
-  /* [5] */
+  // [5]
   code {
     background-color: $color-light-gray;
     padding: 4px;
@@ -235,9 +233,8 @@ div.output_subarea {
     }
   }
 
-  /**
-   * nbinteract styling
-   */
+//nbinteract styling
+
   .cell.nbinteract-left {
     width: 50%;
     float: left;
@@ -270,3 +267,4 @@ div.output_subarea {
     display: none;
   }
 }
+*/
