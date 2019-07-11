@@ -8,6 +8,6 @@ prev_page:
   title: 'Time Series'
 next_page:
   url: /05/demoapplications
-  title: 'Demo applications'
+  title: 'Demo Applications'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
