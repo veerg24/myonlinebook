@@ -1,8 +1,8 @@
 ---
 title: 'Markdown'
 prev_page:
-  url: /intro
-  title: 'Intro'
+  url: /05/standardplots
+  title: 'standard plots'
 next_page:
   url: /features/notebooks
   title: 'Notebooks'
