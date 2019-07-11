@@ -24,7 +24,7 @@ import sys
 !{sys.executable} -m pip install netCDF4
 !{sys.executable} -m pip install xarray
 import opedia
-import netCDf4
+import netCDF4
 import os
 import numpy as np
 import pandas as pd

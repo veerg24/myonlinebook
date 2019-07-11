@@ -188,7 +188,7 @@ def plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth
 ```python
 #TESTS XARRAY IMPLEMENTATION
 
-xFile = xr.open_dataset('http://engaging-opendap.mit.edu:8080/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
+xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
 
 tables = [xFile]    # see catalog.csv  for the complete list of tables and variable names
 variables = ['O2']                                        # see catalog.csv  for the complete list of tables and variable names
