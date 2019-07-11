@@ -61,6 +61,14 @@
 - title: llc90 plotting examples
   url: /02/llc90plottingexamples
   sections:
+  - title: Regional Map
+    url: /02/regionalmap
+  - title: Histogram
+    url: /02/histogram
+  - title: Sectional Map
+    url: /02/sectionalmap
+  - title: Time Series
+    url: /02/timeseries
   - title: XY plot
     url: /02/xyplot
 
