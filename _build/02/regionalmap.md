@@ -5,7 +5,7 @@ has_widgets: false
 title: 'Regional Map'
 prev_page:
   url: /02/llc90plottingexamples
-  title: 'llc90 plotting examples'
+  title: 'LLC90 Plotting Examples'
 next_page:
   url: /02/histogram
   title: 'Histogram'

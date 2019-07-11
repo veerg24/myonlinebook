@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'XY plot'
 prev_page:
-  url: /02/llc90plottingexamples
-  title: 'llc90 plotting examples'
+  url: /02/timeseries
+  title: 'Time Series'
 next_page:
   url: /03/cs510plottingexamples
-  title: 'cs510 plotting examples'
+  title: 'CS510 Plotting Examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

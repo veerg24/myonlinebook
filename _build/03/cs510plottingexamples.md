@@ -7,7 +7,7 @@ prev_page:
   url: /02/xyplot
   title: 'XY plot'
 next_page:
-  url: /04/llc4320plottingexamples
-  title: 'LLC4320 Plotting Examples'
+  url: /03/regionalmap
+  title: 'Regional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

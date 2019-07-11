@@ -2,12 +2,12 @@
 interact_link: content/04/llc4320plottingexamples.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'llc4320 plotting examples'
+title: 'LLC4320 Plotting Examples'
 prev_page:
-  url: /03/cs510plottingexamples
-  title: 'cs510 plotting examples'
+  url: /03/xyplot
+  title: 'XY plot'
 next_page:
-  url: /05/demoapplications
-  title: 'Demo applications'
+  url: /04/regionalmap
+  title: 'Regional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
