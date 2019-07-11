@@ -75,16 +75,32 @@
 # ===== NEW SECTION ========================================
 - title: CS510 Plotting Examples
   url: /03/cs510plottingexamples
-  # sections:
-  # - title: XY plot
-  #   url: /02/xyplot
+  sections:
+  - title: Regional Map
+    url: /03/regionalmap
+  - title: Histogram
+    url: /03/histogram
+  - title: Sectional Map
+    url: /03/sectionalmap
+  - title: Time Series
+    url: /03/timeseries
+  - title: XY plot
+    url: /03/xyplot
 
 # ===== NEW SECTION ========================================
 - title: LLC4320 Plotting Examples
   url: /04/llc4320plottingexamples
-  # sections:
-  # - title: XY plot
-  #   url: /02/xyplot
+  sections:
+  - title: Regional Map
+    url: /04/regionalmap
+  - title: Histogram
+    url: /04/histogram
+  - title: Sectional Map
+    url: /04/sectionalmap
+  - title: Time Series
+    url: /04/timeseries
+  - title: XY plot
+    url: /04/xyplot
 
 # ===== NEW SECTION ========================================
 - title: Demo applications
