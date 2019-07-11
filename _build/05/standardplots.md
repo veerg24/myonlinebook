@@ -2,10 +2,10 @@
 interact_link: content/05/standardplots.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'standard plots'
+title: 'Standard Plots'
 prev_page:
   url: /05/ecosystemclusteringexample
-  title: 'ecosystem clustering example'
+  title: 'Ecosystem Clustering Example'
 next_page:
   url: /features/markdown
   title: 'Markdown'

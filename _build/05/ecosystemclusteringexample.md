@@ -2,12 +2,12 @@
 interact_link: content/05/ecosystemclusteringexample.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'ecosystem clustering example'
+title: 'Ecosystem Clustering Example'
 prev_page:
   url: /05/demoapplications
-  title: 'Demo applications'
+  title: 'Demo Applications'
 next_page:
   url: /05/standardplots
-  title: 'standard plots'
+  title: 'Standard Plots'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
