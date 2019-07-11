@@ -20,8 +20,11 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-import opedia
 import sys
+!{sys.executable} -m pip install netCDF4
+!{sys.executable} -m pip install xarray
+import opedia
+import netCDF4
 import os
 import numpy as np
 import pandas as pd
