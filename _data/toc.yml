@@ -35,9 +35,14 @@
 - title: Introduction
   url: /intro
   not_numbered: true
-- title: About
-  url: /about
+- title: About This Book
+  url: /about/aboutthisbook
   not_numbered: true
+  sections:
+  - title: Interactive Books
+    url: /about/aboutinteractivebooks
+  - title: Datasets
+    url: /about/aboutdatasets
 
 - divider: true
 
