@@ -1,11 +1,11 @@
 ---
 title: 'Introduction'
 prev_page:
-  url:
-  title: ''
+  url: https://cbiomes.org
+  title: 'CBIOMES'
 next_page:
-  url: /about
-  title: 'About'
+  url: /about/aboutthisbook
+  title: 'About This Book'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Books with Jupyter and Jekyll
