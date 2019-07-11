@@ -1,8 +1,8 @@
 ---
 title: 'Introduction'
 prev_page:
-  url: https://cbiomes.org
-  title: 'CBIOMES'
+  url:
+  title: ''
 next_page:
   url: /about
   title: 'About'
