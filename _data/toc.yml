@@ -50,11 +50,11 @@
 - title: Overview
   url: /01/overviewofmodelsandoutputrepositories
   sections:
-  - title: llc90 model
+  - title: LLC90 Model
     url: /01/llc90model
-  - title: cs510 model
+  - title: CS510 Model
     url: /01/cs510model
-  - title: llc4320 model
+  - title: LLC4320 Model
     url: /01/llc4320model
 
 # ===== NEW SECTION ========================================
