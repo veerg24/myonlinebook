@@ -125,6 +125,10 @@ def xarraySectionMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1
 
 
 
+#### BokehSec Function
+
+
+
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
@@ -192,6 +196,10 @@ def bokehSec(data, subject, fname, ys, xs, zs, units, variabels):
 </div>
 
 </div>
+
+
+
+#### Regulate Function
 
 
 
