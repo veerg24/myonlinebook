@@ -18,7 +18,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
+<div class="input_area hidecode" markdown="1">
 ```python
 import sys
 !{sys.executable} -m pip install netCDF4
@@ -63,7 +63,7 @@ else:
 
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
+<div class="input_area hidecode" markdown="1">
 ```python
 def plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag, marker='-', msize=20, clr='purple'):
     p = []
