@@ -39,10 +39,10 @@
   url: /about/aboutthisbook
   not_numbered: true
   sections:
-  - title: About the Interactive Book
-    url: /about/aboutinteractivebooks
   - title: About the Datasets
     url: /about/aboutdatasets
+  - title: About the Interactive Book
+    url: /about/aboutinteractivebooks
 
 - divider: true
 

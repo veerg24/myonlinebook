@@ -4,8 +4,8 @@ prev_page:
   url: /intro
   title: 'Introduction'
 next_page:
-  url: /about/aboutinteractivebooks
-  title: 'About the Interactive Book'
+  url: /about/aboutdatasets
+  title: 'About the Datasets'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # About

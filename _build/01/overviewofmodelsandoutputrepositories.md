@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'Overview'
 prev_page:
-  url: /about/aboutdatasets
-  title: 'About the Datasets'
+  url: /about/aboutinteractivebooks
+  title: 'About the Interactive Book'
 next_page:
   url: /01/llc90model
   title: 'LLC90 Model'
