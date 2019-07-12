@@ -58,7 +58,7 @@ else:
 
 
 
-### Xarray Implementation (yippee)
+### Xarray Implementation
 
 
 
