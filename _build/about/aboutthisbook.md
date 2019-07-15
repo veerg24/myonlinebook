@@ -1,7 +1,7 @@
 ---
 title: 'About This Book'
 prev_page:
-  url: /intro
+  url: /intro.html
   title: 'Introduction'
 next_page:
   url: /about/aboutdatasets
