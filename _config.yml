@@ -60,6 +60,8 @@ binder_repo_org                  : "veerg24"  # The username or organization tha
 binder_repo_name                 : "myonlinebook"  # The name of the repository on the web
 binder_repo_branch               : "master"  # The branch on which your textbook is hosted.
 binderhub_interact_text          : "Interact"  # The text that interact buttons will contain.
+
+
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text: Activate Code                # The text to display inside the Thebelab initialization button
