@@ -1,63 +1,30 @@
 ---
-title: 'Introduction'
-prev_page:
-  url: https://cbiomes.org
-  title: 'CBIOMES'
-next_page:
-  url: /about/aboutthisbook
-  title: 'About This Book'
-comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+layout: default
+
+next_page: '/about_this_book.html'
 ---
-# Books with Jupyter and Jekyll
 
-<img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
+# Principles and Techniques of Data Science
 
-Jupyter Books lets you build an online book using a collection of Jupyter Notebooks
-and Markdown files. Its output is similar to the excellent [Bookdown](https://bookdown.org/yihui/bookdown/) tool,
-and adds extra functionality for people running a Jupyter stack.
+**By [Sam Lau][sam], [Joey Gonzalez][joey], and [Deb Nolan][deb].**
 
-For an example of a book built with Jupyter Books, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
+This is the textbook for
+[Data 100, the Principles and Techniques of Data Science course at UC Berkeley][ds100].
 
-Here are a few features of Jupyter Books
+Data 100 is the upper-division, semester-long data science course that follows
+[Data 8, the Foundations of Data Science][data8]. The reader's assumed
+background is detailed in the [About This Book][about] page.
 
-* All course content is written in markdown and Jupyter Notebooks, stored in `notebooks/`
-* The Jupyter Book repo comes packaged with helper scripts to convert these into Jekyll pages (in `scripts/`) that can be hosted for free on GitHub
-* Pages can have [Binder](https://mybinder.org) or JupyterHub links automatically added for interactivity.
-* The website itself is based on Jekyll, and is highly extensible and can be freely-hosted on GitHub.
-* There are lots of nifty HTML features under-the-hood, such as Turbolinks fast-navigation and
-  click-to-copy in code cells.
+The contents of this book are licensed for free consumption under the following license:
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-## Getting started
-
-To get started, you may be interested in the following links.
-Here are a few links of interest:
-
-* **[Quickstart](features/features)** is a quick demo and overview of Jupyter Books.
-
-* **[The Jupyter Book Guide](guide/01_overview)**
-  will step you through the process of configuring and building your own Jupyter Book.
-
-* **[The Jupyter Book template repo](https://github.com/jupyter/jupyter-book)** is the template
-  repository you'll use as a start for your Jupyter Book.
-
-* **A demo of the Jupyter Book** can be browsed via the sidebar to the left.
-
-## Installation
-
-Here's a brief rundown of how to create your own Jupyter Book using this site. For a more
-complete guide, see [the Jupyter Book guide](guide/01_overview).
-
-* Fork the Jupyter Book template repo
-* Replace the demo notebooks in `content/` with your own notebooks and markdown files.
-* Create a Table of Contents yaml file by editing `_data/toc.yaml`.
-* Generate the Jekyll markdown for your notebooks by running `scripts/generate_book.py`
-* Push your changes to GitHub (or wherever you host your site)!
-
-## Acknowledgements
-
-Jupyter Books was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
-with support of the **UC Berkeley Data Science Education Program and the Berkeley
-Institute for Data Science**.
+To set up the textbook for local development, see the [the setup guide][setup].
 
 [sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com
+[joey]: https://people.eecs.berkeley.edu/~jegonzal/
+[deb]: https://www.stat.berkeley.edu/~nolan/
+[data8]: http://data8.org/
+[ds100]: http://www.ds100.org/
+[setup]: https://github.com/DS-100/textbook/blob/master/SETUP.md
+[about]: /about_this_book
+

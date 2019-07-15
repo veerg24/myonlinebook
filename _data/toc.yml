@@ -33,7 +33,7 @@
 - divider: true
 
 - title: Introduction
-  url: /intro
+  url: /
   not_numbered: true
 - title: About This Book
   url: /about/aboutthisbook
