@@ -1,11 +1,11 @@
 ---
 title: 'Features'
 prev_page:
-  url: /features/notebooks
-  title: 'Notebooks'
+  url: /05/standardplots
+  title: 'Standard Plots'
 next_page:
-  url: 
-  title: ''
+  url: /features/markdown
+  title: 'Markdown'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Features

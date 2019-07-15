@@ -9,7 +9,62 @@
  *
  */
 
+/**
 $color-interact-button: #5a5a5a !default;
+
+%interact-button {
+  @include inuit-font-size(16px);
+  background-color: $color-interact-button;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  // [2]
+  padding: $spacing-unit-tiny $spacing-unit-med;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.interact-button-logo {
+  height: 1.35em;
+  padding-right: 10px;
+  margin-left: -5px;
+}
+
+.buttons {
+  margin-bottom: $spacing-unit;
+
+  // [1] 
+  .interact-button {
+    @extend %interact-button;
+  }
+}
+
+.js-nbinteract-widget {
+  @extend %interact-button;
+
+  // [3]
+  padding: $spacing-unit-tiny $spacing-unit;
+  margin-bottom: $spacing-unit-small;
+}
+
+// If the interact button link is changed with a REST param
+div.interact-context {
+  display: inline;
+  padding-left: 1em;
+  font-weight: 600;
+}
+*/
+
+// New
+
+$color-interact-button: #477dca !default;
 
 %interact-button {
   @include inuit-font-size(16px);
@@ -30,12 +85,6 @@ $color-interact-button: #5a5a5a !default;
   }
 }
 
-.interact-button-logo {
-  height: 1.35em;
-  padding-right: 10px;
-  margin-left: -5px;
-}
-
 .buttons {
   margin-bottom: $spacing-unit;
 
@@ -51,11 +100,4 @@ $color-interact-button: #5a5a5a !default;
   /* [3] */
   padding: $spacing-unit-tiny $spacing-unit;
   margin-bottom: $spacing-unit-small;
-}
-
-// If the interact button link is changed with a REST param
-div.interact-context {
-  display: inline;
-  padding-left: 1em;
-  font-weight: 600;
 }
