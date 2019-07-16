@@ -13,6 +13,10 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+# Time Series Method
+
+
+
 ## Convert plotTS() Function to Use netCDF4 Parameters
 
 
