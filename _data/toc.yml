@@ -59,7 +59,7 @@
 
 # ===== NEW SECTION ========================================
 - title: LLC90 Plotting Examples
-  # url: /02/llc90plottingexamples
+  url: /02/llc90plottingexamples
   sections:
   - title: Regional Map
     url: /02/regionalmap
