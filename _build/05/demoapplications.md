@@ -1,7 +1,4 @@
 ---
-interact_link: content/05/demoapplications.ipynb
-kernel_name: python3
-has_widgets: false
 title: 'Demo Applications'
 prev_page:
   url: /04/xyplot
@@ -11,3 +8,4 @@ next_page:
   title: 'Ecosystem Clustering Example'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
+# Demo Applications
