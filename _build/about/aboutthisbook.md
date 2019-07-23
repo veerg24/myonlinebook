@@ -11,10 +11,14 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 # About This Book
 
 ## [About the Datasets][datasets]
-<img src="datasets.png" style="width: 200px;"/>
+<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
+<img src="datasets.png" style="width: 150px;"/>
+</a>
 
-## [About the Interactive Book](https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html)
-[![](jupyterbook.png)](https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html)
+## [About the Interactive Book]
+<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
+<img src="jupyterbook.png" style="width: 150px;"/>
+</a>
 
 [datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
 [jupyterbook]: https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html
