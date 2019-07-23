@@ -14,3 +14,5 @@ This online book is made using Jupyter Books and comprises of a collection of Ju
 
 ## Interacting with the Code
 
+1. Click on the 'Interact' button at the top of the page
+![](step1.png)
