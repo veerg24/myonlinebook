@@ -1,4 +1,4 @@
-<strong><font size="40">About this Book</font></strong>
+# About this Book
 
 ## [About the Datasets][datasets]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
