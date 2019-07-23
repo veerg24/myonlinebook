@@ -63,7 +63,7 @@ binderhub_interact_text          : "Interact"  # The text that interact buttons 
  
 
 # Thebelab settings
-use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
+use_thebelab_button: false                # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text: Activate Code                # The text to display inside the Thebelab initialization button
 codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
@@ -71,7 +71,7 @@ codemirror_theme: abcdef                     # Theme for codemirror cells, for o
 use_show_widgets_button: true                # If 'true', display a button to allow in-page running code cells with nbinteract
 
 # Download settings
-use_download_button: true                # If 'true', display a button to download a zip file for the notebook
+use_download_button: false                # If 'true', display a button to download a zip file for the notebook
 download_button_text: Download                # The text that download buttons will contain
 
 #######################################################################################
