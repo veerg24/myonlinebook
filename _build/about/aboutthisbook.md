@@ -13,9 +13,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <p style="margin:0;display:inline;float:left"><h2>About the Datasets</h2></p>
 <p style="margin:0;display:inline;float:right"><h2>About the Interactive Book</h2></p>-->
 
-<h2>About the Datasets &nbsp;&nbsp;&nbsp;&nbsp; About the Interactive Dataset</h2>
+<h2><a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">About the Datasets</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">About the Interactive Dataset</a></h2>
 
-<pre class="tab">This    text      has    lots of     spaces</pre>
+<pre>This    text      has    lots of     spaces</pre>
 
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
 <img src="datasets.png" style="width: 150px;"/>
