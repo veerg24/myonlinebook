@@ -13,7 +13,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <p style="margin:0;display:inline;float:left"><h2>About the Datasets</h2></p>
 <p style="margin:0;display:inline;float:right"><h2>About the Interactive Book</h2></p>-->
 
-About the Datasets &nbsp;&nbsp;&nbsp;&nbsp; About the Interactive Dataset
+<h2>About the Datasets &nbsp;&nbsp;&nbsp;&nbsp; About the Interactive Dataset</h2>
 
 <pre class="tab">This    text      has    lots of     spaces</pre>
 
