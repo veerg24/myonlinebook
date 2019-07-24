@@ -10,8 +10,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 # About this Book
 
-<p style="margin-left:100;display:inline;float:left">About the Datasets</p>
-<p style="margin-right:100;display:inline;float:right">About the Interactive Book</p>
+<p style="margin-left:100;display:inline;float:left"><h1><strong>About the Datasets</strong></h1></p>
+<p style="margin-right:100;display:inline;float:right"><h1><strong>About the Interactive Book</strong></h1></p>
 
 ## [About the Datasets][datasets]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
