@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 <h2> <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">About the Datasets</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">About the Interactive Book</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h2>
 
-<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html"><img src="datasets.png" style="width: 10%;"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html"><img src="jupyterbook.png" style="width: 10%;"/></a>
+<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html"><img src="datasets.png" style="width: 40%;"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html"><img src="jupyterbook.png" style="width: 40%;"/></a>
 
 [datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
 [jupyterbook]: https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html
