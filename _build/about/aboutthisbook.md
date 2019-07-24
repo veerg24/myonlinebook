@@ -13,7 +13,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <p style="margin:0;display:inline;float:left"><h2>About the Datasets</h2></p>
 <p style="margin:0;display:inline;float:right"><h2>About the Interactive Book</h2></p>
 
-## [About the Datasets][datasets]
+<h2>About the Datasets<h2> &nbsp; &nbsp;&nbsp;&nbsp;<h2>About the Interactive Dataset<h2>
+
+	
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
 <img src="datasets.png" style="width: 150px;"/>
 </a>
