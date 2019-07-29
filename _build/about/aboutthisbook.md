@@ -9,13 +9,16 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # About this Book
-<!--
-<p style="margin:0;display:inline;float:left"><h2>About the Datasets</h2></p>
-<p style="margin:0;display:inline;float:right"><h2>About the Interactive Book</h2></p>-->
 
-<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">About the Datasets</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">About the Interactive Book</a></h2>
+## [About the Datasets][datasets]
+<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
+<img src="datasets.png" style="width: 150px;"/>
+</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html"><img src="datasets.png" style="width: 30%;"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html"><img src="jupyterbook.png" style="width: 30%;"/></a>
+## [About the Interactive Book][jupyterbook]
+<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
+<img src="jupyterbook.png" style="width: 150px;"/>
+</a>
 
 [datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
 [jupyterbook]: https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html
