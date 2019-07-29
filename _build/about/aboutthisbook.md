@@ -17,7 +17,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## [About the Interactive Book][jupyterbook]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
-<img src="jupyterbook.png" style="width: 200px;"/>
+<img src="jupyterbook.png" style="width: 225px;"/>
 </a>
 
 [datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
