@@ -1,16 +1,13 @@
 # About this Book
 
-<p style="margin:0;display:inline;float:left">content1</p>
-<p style="margin:0;display:inline:float:right" >content2</p>
-
 ## [About the Datasets][datasets]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
-<img src="datasets.png" style="width: 150px;"/>
+<img src="datasets.png" style="width: 200px;"/>
 </a>
 
 ## [About the Interactive Book][jupyterbook]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
-<img src="jupyterbook.png" style="width: 150px;"/>
+<img src="jupyterbook.png" style="width: 200px;"/>
 </a>
 
 [datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
