@@ -10,10 +10,12 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 # About the Interactive Book
 
-This online book is made using Jupyter Books and comprises of a collection of Jupyter Notebook and Markdown files. This allows users to interact with and modify the code on each of the pages. Follow the steps follow to see how.
+This online book is made using Jupyter Books and comprises of a collection of Jupyter Notebook and Markdown files. This allows users to interact with and modify the code on each of the pages. Watch the video below, or follow the steps to see how.
 
+# Video
 <video id="sampleMovie" src="jupyterbook.mov"></video>
 
+# Steps
 ## Interacting with the Code
 
 1. Click on the 'Interact' button at the top of the page. This will take you to a binder.
