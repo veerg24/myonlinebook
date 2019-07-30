@@ -2,7 +2,7 @@
 
 ## [About the Datasets][datasets]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
-<img src="datasets.png" style="width: 200px;"/>
+<img src="datasets.png" style="width: 180px;"/>
 </a>
 
 ## [About the Interactive Book][jupyterbook]
