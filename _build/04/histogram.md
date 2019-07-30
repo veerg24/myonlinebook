@@ -13,6 +13,14 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+# Histogram Method
+
+
+
+![](histogram.png)
+
+
+
 ## Reformat netCDF4 File for a Function Call
 
 

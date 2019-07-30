@@ -2,7 +2,7 @@
 
 # [Regional Map](https://veerg24.github.io/myonlinebook/03/regionalmap.html)
 [![](regionalmap.png)](https://veerg24.github.io/myonlinebook/03/regionalmap.html)
-# [Historgram](https://veerg24.github.io/myonlinebook/03/histogram.html)
+# [Histogram](https://veerg24.github.io/myonlinebook/03/histogram.html)
 [![](histogram.png)](https://veerg24.github.io/myonlinebook/03/histogram.html)
 # [Sectional Map](https://veerg24.github.io/myonlinebook/03/sectionalmap.html)
 [![](sectionalmap.png)](https://veerg24.github.io/myonlinebook/03/sectionalmap.html)

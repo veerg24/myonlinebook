@@ -12,7 +12,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # [Regional Map](https://veerg24.github.io/myonlinebook/02/regionalmap.html)
 [![](regionalmap.png)](https://veerg24.github.io/myonlinebook/02/regionalmap.html)
-# [Historgram](https://veerg24.github.io/myonlinebook/02/histogram.html)
+# [Histogram](https://veerg24.github.io/myonlinebook/02/histogram.html)
 [![](histogram.png)](https://veerg24.github.io/myonlinebook/02/histogram.html)
 # [Sectional Map](https://veerg24.github.io/myonlinebook/02/sectionalmap.html)
 [![](sectionalmap.png)](https://veerg24.github.io/myonlinebook/02/sectionalmap.html)
