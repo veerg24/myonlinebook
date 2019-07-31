@@ -15,7 +15,7 @@ This online book is made using Jupyter Books and comprises of a collection of Ju
 ## Video
 <video id="sampleMovie" src="jupyterbook.mov" controls></video>
 
-## Interacting with the Code
+## Steps to Interact with the Code
 
 1. Click on the 'Interact' button at the top of the page. This will take you to a binder.
 ![](step1.png)
