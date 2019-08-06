@@ -11,3 +11,7 @@ next_page:
   title: 'CS510 Plotting Examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
+
+
+# XY Plot Method
+

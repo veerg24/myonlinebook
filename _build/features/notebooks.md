@@ -13,13 +13,16 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
 # Content with notebooks
 
 You can also create content with Jupyter Notebooks. The content for the current page is contained
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
 code blocks and their outputs, and export them to Jekyll markdown.
 
-**You can find the original notebook for this page [at this address](https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/minimal/content/features/notebooks.ipynb)**
+**You can find the original notebook for this page [here](https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/minimal/content/features/notebooks.ipynb)**
 
 ## Markdown + notebooks
 
@@ -48,6 +51,11 @@ But make sure you \\$Escape \\$your \\$dollar signs \\$you want to keep!
 
 Textbooks with Jupyter will also embed your code blocks and output in your site.
 For example, here's some sample Matplotlib code:
+
+```
+</div>
+
+</div>
 
 
 

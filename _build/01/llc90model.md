@@ -1,7 +1,4 @@
 ---
-interact_link: content/01/llc90model.ipynb
-kernel_name: python3
-has_widgets: false
 title: 'LLC90 Model'
 prev_page:
   url: /01/overviewofmodelsandoutputrepositories
@@ -11,7 +8,4 @@ next_page:
   title: 'CS510 Model'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
-
-
-# llc90 model
-
+# LLC90 Model
