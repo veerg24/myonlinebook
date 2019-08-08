@@ -1,3 +1,28 @@
+def regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag):
+    for i in tqdm(range(len(tables)), desc='overall'):
+        
+        unit = tables[i].variables[variables[i]].attrs['units']
+        
+        toDateTime = tables[i].indexes['TIME'].to_datetimeindex()
+        tables[i]['TIME'] = toDateTime
+        table = tables[i].sel(TIME = slice(startDate, endDate), LAT_C = slice(lat1, lat2), LON_C = slice(lon1, lon2), DEP_C = slice(depth1, depth2))
+        
+        varData = table.variables[variables[i]][0,0,:,:].values       
+        
+        lats = table.variables['LAT_C'].values.tolist()
+        lons = table.variables['LON_C'].values.tolist()
+        
+        shape = (len(lats), len(lons))
+        
+        varData.reshape(shape)
+
+        varData[varData < 0] = float('NaN')
+        varData = [np.asarray(varData)]
+        lats = [np.asarray(lats)]
+        lons = [np.asarray(lons)]
+        
+        bokehMap(varData, unit, 'regional', lats, lons, unit, 'OTHER', variables[i])
+
 def bokehMap(data, subject, fname, lat, lon, units, tables, variabels):
     TOOLS="crosshair,pan,zoom_in,wheel_zoom,zoom_out,box_zoom,reset,save,"
     p = []

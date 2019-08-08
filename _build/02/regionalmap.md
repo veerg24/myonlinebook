@@ -115,49 +115,6 @@ exportDataFlag = False
 
 
 
-#### Regional Map Function (w/ respective parameters) :
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area hidecode" markdown="1">
-```python
-def regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag):
-    for i in tqdm(range(len(tables)), desc='overall'):
-        
-        unit = tables[i].variables[variables[i]].attrs['units']
-        
-        toDateTime = tables[i].indexes['TIME'].to_datetimeindex()
-        tables[i]['TIME'] = toDateTime
-        table = tables[i].sel(TIME = slice(startDate, endDate), LAT_C = slice(lat1, lat2), LON_C = slice(lon1, lon2), DEP_C = slice(depth1, depth2))
-        
-        varData = table.variables[variables[i]][0,0,:,:].values       
-        
-        lats = table.variables['LAT_C'].values.tolist()
-        lons = table.variables['LON_C'].values.tolist()
-        
-        shape = (len(lats), len(lons))
-        
-        varData.reshape(shape)
-
-        varData[varData < 0] = float('NaN')
-        varData = [np.asarray(varData)]
-        lats = [np.asarray(lats)]
-        lons = [np.asarray(lons)]
-        
-        bokehMap(varData, unit, 'regional', lats, lons, unit, 'OTHER', variables[i])
-
-```
-</div>
-
-</div>
-
-
-
-#### Bokeh Map Function (w/ respective parameters) :
-
-
-
 ### Testing Space
 
 
