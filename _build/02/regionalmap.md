@@ -44,11 +44,31 @@ from bokeh.models.annotations import Title
 from bokeh.embed import components
 from tqdm import tqdm_notebook as tqdm
 from netCDF4 import num2date, date2num
-
+%run -i 'a.py'
 
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Requirement already satisfied: netCDF4 in /Users/VeerGadodia/.local/lib/python3.7/site-packages (1.5.1.2)
+Requirement already satisfied: cftime in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.0.3.4)
+Requirement already satisfied: numpy>=1.7 in /Applications/anaconda3/lib/python3.7/site-packages (from netCDF4) (1.16.2)
+[33mWARNING: You are using pip version 19.1.1, however version 19.2.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+Requirement already satisfied: xarray in /Applications/anaconda3/lib/python3.7/site-packages (0.12.1)
+Requirement already satisfied: numpy>=1.12 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (1.16.2)
+Requirement already satisfied: pandas>=0.19.2 in /Applications/anaconda3/lib/python3.7/site-packages (from xarray) (0.24.2)
+Requirement already satisfied: pytz>=2011k in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2018.9)
+Requirement already satisfied: python-dateutil>=2.5.0 in /Applications/anaconda3/lib/python3.7/site-packages (from pandas>=0.19.2->xarray) (2.8.0)
+Requirement already satisfied: six>=1.5 in /Applications/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas>=0.19.2->xarray) (1.12.0)
+[33mWARNING: You are using pip version 19.1.1, however version 19.2.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+```
+</div>
+</div>
 </div>
 
 
@@ -138,59 +158,6 @@ def regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, dep
 
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area hidecode" markdown="1">
-```python
-def bokehMap(data, subject, fname, lat, lon, units, tables, variabels):
-    TOOLS="crosshair,pan,zoom_in,wheel_zoom,zoom_out,box_zoom,reset,save,"
-    p = []
-    for ind in range(len(data)):
-
-        w, h = com.canvasRect(dw=np.max(lon[ind])-np.min(lon[ind]), dh=np.max(lat[ind])-np.min(lat[ind]))
-        p1 = figure(tools=TOOLS, toolbar_location="right", title=subject[ind], plot_width=w, plot_height=h, x_range=(np.min(lon[ind]), np.max(lon[ind])), y_range=(np.min(lat[ind]), np.max(lat[ind])))
-        p1.xaxis.axis_label = 'Longitude'
-        p1.yaxis.axis_label = 'Latitude'
-    
-        unit = units
-        
-        bounds = com.getBounds(variabels[ind])
-        
-        paletteName = com.getPalette(variabels[ind])
-        low, high = bounds[0], bounds[1]
-        
-        if low == None:
-            low, high = np.nanmin(data[ind].flatten()), np.nanmax(data[ind].flatten())
-        color_mapper = LinearColorMapper(palette=paletteName, low=low, high=high)
-        p1.image(image=[data[ind]], color_mapper=color_mapper, x=np.min(lon[ind]), y=np.min(lat[ind]), dw=np.max(lon[ind])-np.min(lon[ind]), dh=np.max(lat[ind])-np.min(lat[ind]))
-        p1.add_tools(HoverTool(
-            tooltips=[
-                ('longitude', '$x'),
-                ('latitude', '$y'),
-                (variabels[ind]+unit, '@image'),
-            ],
-            mode='mouse'
-        ))
-        color_bar = ColorBar(color_mapper=color_mapper, ticker=BasicTicker(),
-                        label_standoff=12, border_line_color=None, location=(0,0))
-        p1.add_layout(color_bar, 'right')
-        p.append(p1)
-    if len(p) > 0:
-       # if not inline:      ## if jupyter is not the caller
-       #     dirPath = 'embed/'
-       #     if not os.path.exists(dirPath):
-       #         os.makedirs(dirPath)        
-       #     output_file(dirPath + fname + ".html", title="Regional Map")
-        show(column(p))
-    return
-
-
-```
-</div>
-
-</div>
-
-
-
 ### Testing Space
 
 
@@ -205,5 +172,50 @@ regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth
 ```
 </div>
 
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+HBox(children=(IntProgress(value=0, description='overall', max=1, style=ProgressStyle(description_width='initi…
+```
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_traceback_line}
+```
+
+    ---------------------------------------------------------------------------
+
+    AttributeError                            Traceback (most recent call last)
+
+    ~/Documents/SummerInternship2019/myonlinebook/content/02/a.py in <module>()
+    ----> 1 regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+          2 
+
+
+    ~/Documents/SummerInternship2019/myonlinebook/content/02/a.py in regionalMap(tables, variabels, dt1, dt2, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
+          4         unit = tables[i].variables[variables[i]].attrs['units']
+          5 
+    ----> 6         toDateTime = tables[i].indexes['TIME'].to_datetimeindex()
+          7         tables[i]['TIME'] = toDateTime
+          8         table = tables[i].sel(TIME = slice(startDate, endDate), LAT_C = slice(lat1, lat2), LON_C = slice(lon1, lon2), DEP_C = slice(depth1, depth2))
+
+
+    AttributeError: 'DatetimeIndex' object has no attribute 'to_datetimeindex'
+
+
+```
+</div>
+</div>
 </div>
 
