@@ -151,7 +151,6 @@ exportDataFlag = False      # True if you you want to download data
 
 plotTSX(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
 
-
 ```
 </div>
 
