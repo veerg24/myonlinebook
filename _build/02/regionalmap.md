@@ -44,7 +44,7 @@ from bokeh.models.annotations import Title
 from bokeh.embed import components
 from tqdm import tqdm_notebook as tqdm
 from netCDF4 import num2date, date2num
-%run -i 'a.py'
+%run -i 'externalfunctions.py'
 
 ```
 </div>

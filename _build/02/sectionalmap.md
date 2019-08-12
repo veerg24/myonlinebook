@@ -56,6 +56,7 @@ if jup.jupytered():
     from tqdm import tqdm_notebook as tqdm
 else:
     from tqdm import tqdm
+%run -i 'externalfunctions.py'
 
 ```
 </div>
