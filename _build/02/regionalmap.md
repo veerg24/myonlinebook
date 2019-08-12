@@ -21,6 +21,10 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 
 
+### Import Functions
+
+
+
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
@@ -53,30 +57,15 @@ from netCDF4 import num2date, date2num
 
 
 
-#### NetCDF4 file(s) to read from:
+### Testing Space
 
 
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+# NetCDF4 file(s) to read from:
 xFile = xr.open_dataset('http://3.88.71.225:80/thredds/dodsC/las/id-a1d60eba44/data_usr_local_tomcat_content_cbiomes_20190510_20_darwin_v0.2_cs510_darwin_v0.2_cs510_nutrients.nc.jnl')
-
-
-```
-</div>
-
-</div>
-
-
-
-#### Parameters (CDF4 tables, variables (with respect to table), time/longitude/latitude/depth constraints):
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
 
 tables = [xFile]
 variables = ['O2']
@@ -88,23 +77,7 @@ depth1, depth2 = 0, 50
 fname = 'regional'
 exportDataFlag = False
 
-```
-</div>
-
-</div>
-
-
-
-### Testing Space
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
 regionalMap(tables, variables, startDate, endDate, lat1, lat2, lon1, lon2, depth1, depth2, fname, exportDataFlag)
-
-
 
 ```
 </div>
