@@ -10,6 +10,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 # CS510 Plotting Examples
 
+# [Data Query](https://veerg24.github.io/myonlinebook/02/query.html)
 # [Regional Map](https://veerg24.github.io/myonlinebook/03/regionalmap.html)
 [![](regionalmap.png)](https://veerg24.github.io/myonlinebook/03/regionalmap.html)
 # [Histogram](https://veerg24.github.io/myonlinebook/03/histogram.html)
