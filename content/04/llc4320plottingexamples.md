@@ -1,5 +1,7 @@
 # LLC4320 Plotting Examples
 
+# [Data Query](https://veerg24.github.io/myonlinebook/04/regionalmap.html)
+[![](query.png)](https://veerg24.github.io/myonlinebook/04/regionalmap.html)
 # [Regional Map](https://veerg24.github.io/myonlinebook/04/regionalmap.html)
 [![](regionalmap.png)](https://veerg24.github.io/myonlinebook/04/regionalmap.html)
 # [Histogram](https://veerg24.github.io/myonlinebook/04/histogram.html)

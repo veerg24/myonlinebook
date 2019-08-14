@@ -4,8 +4,8 @@ prev_page:
   url: /02/xyplot
   title: 'XY plot'
 next_page:
-  url: /03/regionalmap
-  title: 'Regional Map'
+  url: /03/query
+  title: 'Data Query'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # CS510 Plotting Examples

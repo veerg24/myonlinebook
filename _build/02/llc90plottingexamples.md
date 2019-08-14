@@ -4,8 +4,8 @@ prev_page:
   url: /01/llc4320model
   title: 'LLC4320 Model'
 next_page:
-  url: /02/regionalmap
-  title: 'Regional Map'
+  url: /02/query
+  title: 'Data Query'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # LLC90 Plotting Examples

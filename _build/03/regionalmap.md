@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'Regional Map'
 prev_page:
-  url: /03/cs510plottingexamples
-  title: 'CS510 Plotting Examples'
+  url: /03/query
+  title: 'Data Query'
 next_page:
   url: /03/histogram
   title: 'Histogram'
