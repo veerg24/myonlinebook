@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'Regional Map'
 prev_page:
-  url: /02/llc90plottingexamples
-  title: 'LLC90 Plotting Examples'
+  url: /02/query
+  title: 'Data Query'
 next_page:
   url: /02/histogram
   title: 'Histogram'
