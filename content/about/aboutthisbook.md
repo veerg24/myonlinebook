@@ -10,7 +10,7 @@
 <img src="jupyterbook.png" style="width: 200px;"/>
 </a>-->
 <svg width="225" height="225" viewBox="0 0 44 51" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
-<a xlink:href = "https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
+<a xlink:href = "https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
 <title>Group.svg</title>
 <desc>Created using Figma 0.90</desc>
 <g id="Canvas" transform="translate(-1640 -2453)" figma:type="canvas">
