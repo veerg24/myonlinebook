@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Regional Map'
 prev_page:
-  url: /03/cs510plottingexamples
+  url: /03/cs510plottingexamples.html
   title: 'CS510 Plotting Examples'
 next_page:
-  url: /03/histogram
+  url: /03/histogram.html
   title: 'Histogram'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

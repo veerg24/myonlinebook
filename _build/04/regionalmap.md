@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Regional Map'
 prev_page:
-  url: /04/llc4320plottingexamples
+  url: /04/llc4320plottingexamples.html
   title: 'LLC4320 Plotting Examples'
 next_page:
-  url: /04/histogram
+  url: /04/histogram.html
   title: 'Histogram'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

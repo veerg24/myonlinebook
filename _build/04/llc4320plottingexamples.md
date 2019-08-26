@@ -1,10 +1,10 @@
 ---
 title: 'LLC4320 Plotting Examples'
 prev_page:
-  url: /03/xyplot
+  url: /03/xyplot.html
   title: 'XY plot'
 next_page:
-  url: /04/regionalmap
+  url: /04/regionalmap.html
   title: 'Regional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

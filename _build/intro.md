@@ -1,10 +1,10 @@
 ---
 title: 'Introduction'
 prev_page:
-  url: https://cbiomes.org
-  title: 'CBIOMES'
+  url: 
+  title: ''
 next_page:
-  url: /about/aboutthisbook
+  url: /about/aboutthisbook.html
   title: 'About This Book'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Notebooks'
 prev_page:
-  url: /features/markdown
+  url: /features/markdown.html
   title: 'Markdown'
 next_page:
-  url: /features/depth
+  url: /features/depth.html
   title: 'Depth'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'XY plot'
 prev_page:
-  url: /03/timeseries
+  url: /03/timeseries.html
   title: 'Time Series'
 next_page:
-  url: /04/llc4320plottingexamples
+  url: /04/llc4320plottingexamples.html
   title: 'LLC4320 Plotting Examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

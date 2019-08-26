@@ -4,7 +4,7 @@ kernel_name: python3
 has_widgets: false
 title: 'Depth'
 prev_page:
-  url: /features/notebooks
+  url: /features/notebooks.html
   title: 'Notebooks'
 next_page:
   url: 

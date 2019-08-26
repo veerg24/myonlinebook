@@ -1,10 +1,10 @@
 ---
 title: 'Features'
 prev_page:
-  url: /05/standardplots
+  url: /05/standardplots.html
   title: 'Standard Plots'
 next_page:
-  url: /features/markdown
+  url: /features/markdown.html
   title: 'Markdown'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

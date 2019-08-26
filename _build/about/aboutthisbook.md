@@ -1,10 +1,10 @@
 ---
 title: 'About This Book'
 prev_page:
-  url: /intro
+  url: /intro.html
   title: 'Introduction'
 next_page:
-  url: /about/aboutdatasets
+  url: /about/aboutdatasets.html
   title: 'About the Datasets'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

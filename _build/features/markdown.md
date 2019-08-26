@@ -1,10 +1,10 @@
 ---
 title: 'Markdown'
 prev_page:
-  url: /features/features
+  url: /features/features.html
   title: 'Features'
 next_page:
-  url: /features/notebooks
+  url: /features/notebooks.html
   title: 'Notebooks'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

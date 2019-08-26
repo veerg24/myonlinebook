@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Time Series'
 prev_page:
-  url: /04/sectionalmap
+  url: /04/sectionalmap.html
   title: 'Sectional Map'
 next_page:
-  url: /04/xyplot
+  url: /04/xyplot.html
   title: 'XY plot'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

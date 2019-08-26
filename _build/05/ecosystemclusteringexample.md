@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Ecosystem Clustering Example'
 prev_page:
-  url: /05/demoapplications
+  url: /05/demoapplications.html
   title: 'Demo Applications'
 next_page:
-  url: /05/standardplots
+  url: /05/standardplots.html
   title: 'Standard Plots'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

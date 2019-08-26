@@ -1,10 +1,10 @@
 ---
 title: 'CS510 Plotting Examples'
 prev_page:
-  url: /02/xyplot
+  url: /02/xyplot.html
   title: 'XY plot'
 next_page:
-  url: /03/regionalmap
+  url: /03/regionalmap.html
   title: 'Regional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

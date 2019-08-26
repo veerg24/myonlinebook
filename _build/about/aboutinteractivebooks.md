@@ -1,10 +1,10 @@
 ---
 title: 'About the Interactive Book'
 prev_page:
-  url: /about/aboutdatasets
+  url: /about/aboutdatasets.html
   title: 'About the Datasets'
 next_page:
-  url: /01/overviewofmodelsandoutputrepositories
+  url: /01/overviewofmodelsandoutputrepositories.html
   title: 'Overview'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

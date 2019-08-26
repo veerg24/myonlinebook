@@ -4,10 +4,10 @@ kernel_name: python3
 has_widgets: false
 title: 'Standard Plots'
 prev_page:
-  url: /05/ecosystemclusteringexample
+  url: /05/ecosystemclusteringexample.html
   title: 'Ecosystem Clustering Example'
 next_page:
-  url: /features/features
+  url: /features/features.html
   title: 'Features'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

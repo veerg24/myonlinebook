@@ -1,10 +1,10 @@
 ---
 title: 'LLC90 Plotting Examples'
 prev_page:
-  url: /01/llc4320model
+  url: /01/llc4320model.html
   title: 'LLC4320 Model'
 next_page:
-  url: /02/regionalmap
+  url: /02/regionalmap.html
   title: 'Regional Map'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
