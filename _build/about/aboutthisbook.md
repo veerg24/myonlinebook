@@ -12,14 +12,14 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## [About the Datasets][datasets]
 <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
-<img src="datasets.png" style="width: 200px;"/>
+<img src="CMAP_logo.png" style="width: 200px;"/>
 </a>
 
 ## [About the Interactive Book][jupyterbook]
 <!--<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
 <img src="jupyterbook.png" style="width: 200px;"/>
 </a>-->
-<svg width="100" height="100" viewBox="0 0 44 51" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<svg width="200" height="200" viewBox="0 0 44 51" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
 <title>Group.svg</title>
 <desc>Created using Figma 0.90</desc>
 <g id="Canvas" transform="translate(-1640 -2453)" figma:type="canvas">
