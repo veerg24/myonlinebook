@@ -22,8 +22,8 @@ email: choldgraf@berkeley.edu
 description: >-
   This is an example book built with Jupyter Books.
 
-baseurl: /myonlinebook   # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: veer24.github.io      # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /cbiomes-oceanmodel   # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+url: vgadodia.github.io      # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
@@ -58,9 +58,9 @@ jupyterhub_interact_text: Interact             # The text that interact buttons 
 # Binder link settings
 use_binder_button: true                  # If 'true', add a binder button for interactive links
 binderhub_url: http://35.225.101.82                        # The URL for your BinderHub. If no URL, use ""
-binder_repo_base: https://github.com/veerg24/myonlinebook # The site on which the textbook repository is hosted
-binder_repo_org: veerg24                      # The username or organization that owns this repository
-binder_repo_name: myonlinebook                     # The name of the repository on the web
+binder_repo_base: https://github.com/vgadodia/cbiomes-oceanmodel # The site on which the textbook repository is hosted
+binder_repo_org: vgadodia                      # The username or organization that owns this repository
+binder_repo_name: cbiomes-oceanmodel                   # The name of the repository on the web
 binder_repo_branch: master                     # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
