@@ -1,15 +1,16 @@
 # About this Book
 
-## [About the Datasets][datasets]
-<a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
+<!-- ## [About the Datasets][datasets] -->
+<!-- <a href="https://veerg24.github.io/myonlinebook/about/aboutdatasets.html">
 <img src="CMAP_logo.png" style="width: 200px;"/>
-</a>
+</a> -->
 
 ## [About the Interactive Book][jupyterbook]
-<!--<a href="https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
+<a href="https://vgadodia.github.io/cbiomes-oceanmodel/about/aboutinteractivebooks.html">
 <img src="jupyterbook.png" style="width: 200px;"/>
-</a>-->
-<svg width="225" height="225" viewBox="0 0 44 51" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+</a>
+
+<!-- <svg width="225" height="225" viewBox="0 0 44 51" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
 <a xlink:href = "https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html">
 <title>Group.svg</title>
 <desc>Created using Figma 0.90</desc>
@@ -100,7 +101,7 @@
 <path id="path11_fill" d="M 2.25061 4.37943C 1.81886 4.39135 1.39322 4.27535 1.02722 4.04602C 0.661224 3.81668 0.371206 3.48424 0.193641 3.09052C 0.0160762 2.69679 -0.0411078 2.25935 0.0292804 1.83321C 0.0996686 1.40707 0.294486 1.01125 0.589233 0.695542C 0.883981 0.37983 1.2655 0.158316 1.68581 0.0588577C 2.10611 -0.0406005 2.54644 -0.0135622 2.95143 0.136572C 3.35641 0.286707 3.70796 0.553234 3.96186 0.902636C 4.21577 1.25204 4.3607 1.66872 4.37842 2.10027C 4.39529 2.6838 4.18131 3.25044 3.78293 3.67715C 3.38455 4.10387 2.83392 4.35623 2.25061 4.37943Z"/>
 </defs>
 </a>
-</svg>
+</svg> -->
 
-[datasets]: https://veerg24.github.io/myonlinebook/about/aboutdatasets.html
-[jupyterbook]: https://veerg24.github.io/myonlinebook/about/aboutinteractivebooks.html
+[datasets]: https://vgadodia.github.io/cbiomes-oceanmodel/about/aboutdatasets.html
+[jupyterbook]: https://vgadodia.github.io/cbiomes-oceanmodel/about/aboutinteractivebooks.html
